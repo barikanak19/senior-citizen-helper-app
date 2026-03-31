@@ -83,9 +83,9 @@ const T = {
     cyberDesc: 'Stay safe from online fraud & scams',
 
     // Footer
-    builtBy: 'Built by Kanak Bari Team',
+    builtBy: 'Built by - Kanak Bari Team',
     enquiry: 'For any enquiry, click here to send your questions via email',
-    email: 'bari19@gmail.com',
+    email: 'barikanak19@gmail.com',
     copyright: '© 2025 Senior Citizen Helper App. All rights reserved.',
   },
   hi: {
@@ -159,7 +159,7 @@ const T = {
 
     builtBy: 'कनक बारी टीम द्वारा निर्मित',
     enquiry: 'किसी भी पूछताछ के लिए, ईमेल द्वारा अपने प्रश्न भेजें',
-    email: 'bari19@gmail.com',
+    email: 'barikanak19@gmail.com',
     copyright: '© 2025 वरिष्ठ नागरिक सहायक ऐप।',
   },
   mr: {
@@ -233,126 +233,136 @@ const T = {
 
     builtBy: 'कनक बारी टीमने बनवले',
     enquiry: 'कोणत्याही चौकशीसाठी, ईमेलद्वारे तुमचे प्रश्न पाठवा',
-    email: 'bari19@gmail.com',
+    email: 'barikanak19@gmail.com',
     copyright: '© 2025 ज्येष्ठ नागरिक सहाय्यक अॅप.',
   },
 };
 
 // ============================================================
-// DATA
+// DATA — HEALTH TIPS (60 plain strings)
 // ============================================================
 const HEALTH_TIPS = [
-  { icon: '💧', tip: 'Drink enough water daily', detail: 'Drink at least 8 glasses of water every day to stay hydrated and keep your kidneys healthy.', color: 'blue', hiTip: 'रोज पर्याप्त पानी पिएं', mrTip: 'दररोज पुरेसे पाणी प्या' },
-  { icon: '🚶', tip: 'Walk every morning', detail: 'Take a 30-minute walk every morning to keep your heart healthy and your body active.', color: 'green', hiTip: 'हर सुबह टहलें', mrTip: 'दररोज सकाळी चाला' },
-  { icon: '🥗', tip: 'Eat fresh fruits and vegetables', detail: 'Include fresh fruits and vegetables in every meal for vitamins, minerals and good digestion.', color: 'orange', hiTip: 'ताजे फल और सब्जियां खाएं', mrTip: 'ताजी फळे आणि भाज्या खा' },
-  { icon: '🌅', tip: 'Never skip breakfast', detail: 'Breakfast gives you energy for the whole day. Skipping it can cause weakness and dizziness.', color: 'yellow', hiTip: 'नाश्ता कभी न छोड़ें', mrTip: 'नाश्ता कधीही सोडू नका' },
-  { icon: '😴', tip: 'Sleep 7 to 8 hours daily', detail: 'Good sleep helps your body repair itself and keeps your mind sharp and mood positive.', color: 'purple', hiTip: 'रोज 7 से 8 घंटे सोएं', mrTip: 'दररोज ७ ते ८ तास झोपा' },
-  { icon: '🧘', tip: 'Stretch every morning', detail: 'Do light stretching exercises after waking up to loosen stiff joints and improve flexibility.', color: 'green', hiTip: 'हर सुबह स्ट्रेचिंग करें', mrTip: 'दररोज सकाळी स्ट्रेचिंग करा' },
-  { icon: '🧂', tip: 'Reduce salt intake', detail: 'Too much salt raises blood pressure. Avoid adding extra salt to your food at the table.', color: 'red', hiTip: 'नमक कम खाएं', mrTip: 'मीठ कमी खा' },
-  { icon: '🥤', tip: 'Avoid sugary drinks', detail: 'Replace soda, packaged juices and cold drinks with water, buttermilk or fresh coconut water.', color: 'orange', hiTip: 'मीठे पेय से बचें', mrTip: 'साखरयुक्त पेये टाळा' },
-  { icon: '💊', tip: 'Take medicines on time', detail: 'Never skip or delay your prescribed medicines. Set an alarm if needed to remember your doses.', color: 'red', hiTip: 'समय पर दवाएं लें', mrTip: 'वेळेवर औषधे घ्या' },
-  { icon: '👨‍⚕️', tip: 'Visit your doctor regularly', detail: 'Get a routine health check-up every 3 months even if you feel well. Prevention is better than cure.', color: 'blue', hiTip: 'नियमित डॉक्टर के पास जाएं', mrTip: 'नियमित डॉक्टरांकडे जा' },
-  { icon: '🩺', tip: 'Monitor blood pressure at home', detail: 'Check your blood pressure regularly at home and keep a record to share with your doctor.', color: 'purple', hiTip: 'घर पर रक्तचाप जाँचें', mrTip: 'घरी रक्तदाब तपासा' },
-  { icon: '🩸', tip: 'Check blood sugar levels', detail: 'If you are diabetic, check your blood sugar as advised by your doctor and maintain a log.', color: 'red', hiTip: 'रक्त शर्करा स्तर जाँचें', mrTip: 'रक्तातील साखर तपासा' },
-  { icon: '👟', tip: 'Wear comfortable footwear', detail: 'Wear supportive and well-fitting shoes to prevent falls, foot pain and joint problems.', color: 'green', hiTip: 'आरामदायक जूते पहनें', mrTip: 'आरामदायक पादत्राणे घाला' },
-  { icon: '💡', tip: 'Keep your home well-lit', detail: 'Ensure all rooms, staircases and corridors are brightly lit to avoid tripping and accidents.', color: 'yellow', hiTip: 'घर में अच्छी रोशनी रखें', mrTip: 'घर नेहमी उजळ ठेवा' },
-  { icon: '🦯', tip: 'Use a walking stick if needed', detail: 'Do not hesitate to use a walking stick or support if you feel unsteady. It prevents dangerous falls.', color: 'blue', hiTip: 'जरूरत हो तो छड़ी का उपयोग करें', mrTip: 'गरज असल्यास काठी वापरा' },
-  { icon: '🥛', tip: 'Eat calcium-rich foods', detail: 'Drink milk, eat curd and include leafy greens in your diet daily for strong bones and teeth.', color: 'purple', hiTip: 'कैल्शियम युक्त खाद्य पदार्थ खाएं', mrTip: 'कॅल्शियमयुक्त पदार्थ खा' },
-  { icon: '☀️', tip: 'Get morning sunlight daily', detail: 'Sit in sunlight for 15 to 20 minutes in the morning. It provides natural Vitamin D for your bones.', color: 'orange', hiTip: 'रोज सुबह धूप लें', mrTip: 'दररोज सकाळचे ऊन घ्या' },
-  { icon: '🚭', tip: 'Avoid smoking and alcohol', detail: 'Smoking and alcohol damage your heart, lungs and liver. Quitting at any age brings health benefits.', color: 'red', hiTip: 'धूम्रपान और शराब से बचें', mrTip: 'धूम्रपान आणि मद्यपान टाळा' },
-  { icon: '🌬️', tip: 'Practice deep breathing daily', detail: 'Do deep breathing exercises for 5 to 10 minutes every day to reduce stress and improve lung health.', color: 'green', hiTip: 'रोज गहरी सांस लें', mrTip: 'दररोज दीर्घ श्वास घ्या' },
-  { icon: '🏋️', tip: 'Avoid lifting heavy objects', detail: 'Do not strain your back or joints by lifting heavy things. Always ask for help when needed.', color: 'orange', hiTip: 'भारी सामान उठाने से बचें', mrTip: 'जड वस्तू उचलणे टाळा' },
-  { icon: '📞', tip: 'Keep emergency numbers handy', detail: 'Save your doctor, ambulance and family members\' numbers on your phone and on a paper at home.', color: 'red', hiTip: 'आपातकालीन नंबर पास रखें', mrTip: 'आपत्कालीन नंबर जवळ ठेवा' },
-  { icon: '🧼', tip: 'Wash hands frequently', detail: 'Wash your hands with soap for at least 20 seconds before meals and after using the toilet.', color: 'blue', hiTip: 'बार-बार हाथ धोएं', mrTip: 'वारंवार हात धुवा' },
-  { icon: '🍽️', tip: 'Eat smaller and frequent meals', detail: 'Instead of 3 large meals, eat 5 small meals throughout the day for better digestion and energy.', color: 'green', hiTip: 'छोटे और बार-बार भोजन करें', mrTip: 'लहान आणि वारंवार जेवण करा' },
-  { icon: '🍟', tip: 'Avoid fried and oily foods', detail: 'Fried foods increase cholesterol and are hard to digest. Choose baked, steamed or boiled foods instead.', color: 'orange', hiTip: 'तले हुए और तैलीय भोजन से बचें', mrTip: 'तळलेले आणि तेलकट अन्न टाळा' },
-  { icon: '🫘', tip: 'Eat fiber-rich foods daily', detail: 'Include oats, lentils, beans and vegetables in your diet to aid digestion and prevent constipation.', color: 'purple', hiTip: 'फाइबर युक्त भोजन करें', mrTip: 'फायबरयुक्त अन्न खा' },
-  { icon: '👨‍👩‍👧', tip: 'Stay socially connected', detail: 'Talk to family and friends every day. Social connection reduces loneliness and keeps your mind healthy.', color: 'blue', hiTip: 'सामाजिक रूप से जुड़े रहें', mrTip: 'सामाजिकदृष्ट्या जोडलेले राहा' },
-  { icon: '📖', tip: 'Read books or newspapers daily', detail: 'Daily reading keeps your brain active, improves memory and helps you stay informed and engaged.', color: 'green', hiTip: 'रोज किताबें या अखबार पढ़ें', mrTip: 'दररोज पुस्तके किंवा वर्तमानपत्र वाचा' },
-  { icon: '🧩', tip: 'Do memory exercises daily', detail: 'Solve simple puzzles, crosswords or sudoku every day to keep your mind sharp and alert.', color: 'purple', hiTip: 'रोज स्मृति व्यायाम करें', mrTip: 'दररोज स्मृती व्यायाम करा' },
-  { icon: '🧘‍♂️', tip: 'Meditate for 10 minutes daily', detail: 'Sit quietly, close your eyes and breathe slowly for 10 minutes each morning to calm your mind.', color: 'blue', hiTip: 'रोज 10 मिनट ध्यान करें', mrTip: 'दररोज १० मिनिटे ध्यान करा' },
-  { icon: '❤️', tip: 'Never ignore chest pain', detail: 'If you feel chest pain, pressure or breathing difficulty, call a doctor or go to hospital immediately.', color: 'red', hiTip: 'सीने के दर्द को नजरअंदाज न करें', mrTip: 'छातीतील वेदना दुर्लक्षित करू नका' },
-  { icon: '📋', tip: 'Keep a medicine list with you', detail: 'Always carry a written list of all your medicines and dosages when you go out or visit the doctor.', color: 'orange', hiTip: 'दवाइयों की सूची साथ रखें', mrTip: 'औषधांची यादी नेहमी सोबत ठेवा' },
-  { icon: '🪑', tip: 'Do not sit for too long', detail: 'Get up and move around for at least 5 minutes every 30 minutes to improve circulation and avoid stiffness.', color: 'green', hiTip: 'लंबे समय तक न बैठें', mrTip: 'जास्त वेळ बसू नका' },
-  { icon: '🪜', tip: 'Always use handrails on stairs', detail: 'Hold the railing firmly on both sides when using stairs to prevent slipping and falling.', color: 'blue', hiTip: 'सीढ़ियों पर हमेशा रेलिंग पकड़ें', mrTip: 'जिन्यावर नेहमी रेलिंग धरा' },
-  { icon: '🚿', tip: 'Use non-slip mats in bathroom', detail: 'Place rubber non-slip mats in the bathroom and keep the floor dry to prevent dangerous falls.', color: 'purple', hiTip: 'बाथरूम में नॉन-स्लिप मैट का उपयोग करें', mrTip: 'बाथरूममध्ये नॉन-स्लिप मॅट वापरा' },
-  { icon: '🥚', tip: 'Eat protein-rich foods daily', detail: 'Include eggs, dal, paneer, fish or chicken in your daily diet to maintain muscle strength and energy.', color: 'orange', hiTip: 'प्रोटीन युक्त खाद्य पदार्थ खाएं', mrTip: 'प्रथिनयुक्त पदार्थ खा' },
-  { icon: '☕', tip: 'Limit tea and coffee intake', detail: 'Drink no more than 1 to 2 cups of tea or coffee per day. Too much caffeine disturbs sleep and raises BP.', color: 'red', hiTip: 'चाय और कॉफी कम पिएं', mrTip: 'चहा आणि कॉफी मर्यादित प्या' },
-  { icon: '👁️', tip: 'Get your eyes checked yearly', detail: 'Visit an eye doctor once a year to check for cataracts, glaucoma or vision changes that need correction.', color: 'blue', hiTip: 'साल में एक बार आंखें जाँचें', mrTip: 'वर्षातून एकदा डोळे तपासा' },
-  { icon: '👂', tip: 'Check your hearing regularly', detail: 'If you find it hard to hear clearly, get a hearing test done. Early detection helps manage hearing loss better.', color: 'purple', hiTip: 'नियमित रूप से सुनने की जाँच करें', mrTip: 'नियमितपणे श्रवण तपासा' },
-  { icon: '🧴', tip: 'Protect your skin from the sun', detail: 'Wear a hat and apply sunscreen when going outside in the afternoon sun to prevent skin damage.', color: 'orange', hiTip: 'धूप से त्वचा की रक्षा करें', mrTip: 'उन्हापासून त्वचेचे संरक्षण करा' },
-  { icon: '🦶', tip: 'Check your feet daily if diabetic', detail: 'Inspect your feet every day for cuts, sores or swelling. Even a small wound needs prompt medical attention.', color: 'red', hiTip: 'मधुमेह होने पर रोज पैर जाँचें', mrTip: 'मधुमेह असल्यास रोज पाय तपासा' },
-  { icon: '🌶️', tip: 'Avoid very spicy food', detail: 'Too much spicy food can cause acidity, indigestion and stomach discomfort. Choose mild and easy-to-digest food.', color: 'orange', hiTip: 'बहुत मसालेदार खाना न खाएं', mrTip: 'जास्त तिखट अन्न टाळा' },
-  { icon: '🧎', tip: 'Do chair yoga or light exercises', detail: 'If outdoor walking is difficult, do chair yoga or gentle seated exercises at home to stay active.', color: 'green', hiTip: 'कुर्सी योग या हल्के व्यायाम करें', mrTip: 'खुर्ची योग किंवा हलके व्यायाम करा' },
-  { icon: '📚', tip: 'Learn something new every week', detail: 'Learning a new skill, craft or hobby every week keeps your brain young, active and motivated.', color: 'blue', hiTip: 'हर हफ्ते कुछ नया सीखें', mrTip: 'दर आठवड्याला काहीतरी नवीन शिका' },
-  { icon: '🍋', tip: 'Drink warm lemon water in the morning', detail: 'Start your day with a glass of warm water with lemon to improve digestion and boost your immunity.', color: 'yellow', hiTip: 'सुबह गर्म नींबू पानी पिएं', mrTip: 'सकाळी कोमट लिंबू पाणी प्या' },
-  { icon: '🌿', tip: 'Eat iron-rich foods to prevent anaemia', detail: 'Include spinach, dates, beetroot and lentils in your diet to maintain healthy iron levels and avoid fatigue.', color: 'green', hiTip: 'एनीमिया से बचने के लिए आयरन युक्त भोजन खाएं', mrTip: 'अॅनिमिया टाळण्यासाठी लोहयुक्त अन्न खा' },
-  { icon: '🚽', tip: 'Do not hold back urination', detail: 'Do not delay going to the toilet when you feel the urge. Holding urine too long can cause bladder problems.', color: 'purple', hiTip: 'पेशाब रोकने में देरी न करें', mrTip: 'लघवी रोखू नका' },
-  { icon: '🏠', tip: 'Keep your home clutter-free', detail: 'Remove loose rugs, wires and objects from walkways at home to prevent trips, slips and accidents.', color: 'orange', hiTip: 'घर को अव्यवस्था मुक्त रखें', mrTip: 'घर नेहमी व्यवस्थित ठेवा' },
-  { icon: '🎵', tip: 'Listen to soothing music daily', detail: 'Listening to calm, pleasant music every day reduces anxiety, lowers stress and improves your mood.', color: 'blue', hiTip: 'रोज सुकून देने वाला संगीत सुनें', mrTip: 'दररोज शांत संगीत ऐका' },
-  { icon: '🛌', tip: 'Take short naps when tired', detail: 'A short nap of 20 to 30 minutes in the afternoon can refresh your body and improve concentration.', color: 'purple', hiTip: 'थके होने पर छोटी झपकी लें', mrTip: 'थकल्यावर थोडी डुलकी घ्या' },
-  { icon: '🚫', tip: 'Never share your medicines', detail: 'Do not give your medicines to others, even for the same symptoms. Every person\'s body and dose is different.', color: 'red', hiTip: 'अपनी दवाएं कभी साझा न करें', mrTip: 'आपली औषधे कधीही शेअर करू नका' },
-  { icon: '🧰', tip: 'Keep a first aid kit at home', detail: 'Always have a stocked first aid kit at home and know the basics of how to use bandages and medicines.', color: 'green', hiTip: 'घर पर प्राथमिक चिकित्सा किट रखें', mrTip: 'घरी प्रथमोपचार किट ठेवा' },
-  { icon: '🦷', tip: 'Brush teeth twice daily', detail: 'Brush your teeth morning and night with a soft-bristle brush and visit the dentist every 6 months.', color: 'blue', hiTip: 'दिन में दो बार दाँत ब्रश करें', mrTip: 'दिवसातून दोनदा दात घासा' },
-  { icon: '⚖️', tip: 'Maintain a healthy body weight', detail: 'Being overweight increases risk of diabetes, BP and joint pain. Eat balanced meals and stay active.', color: 'orange', hiTip: 'स्वस्थ शरीर का वजन बनाए रखें', mrTip: 'निरोगी शरीर वजन राखा' },
-  { icon: '🍴', tip: 'Eat slowly and chew well', detail: 'Chewing your food thoroughly improves digestion, prevents overeating and reduces bloating and gas.', color: 'green', hiTip: 'धीरे-धीरे खाएं और अच्छी तरह चबाएं', mrTip: 'हळूहळू खा आणि नीट चावा' },
-  { icon: '🧥', tip: 'Stay warm in cold weather', detail: 'Wear layered and warm clothing in winter to protect your joints, chest and immune system from the cold.', color: 'purple', hiTip: 'ठंड के मौसम में गर्म रहें', mrTip: 'थंडीत उबदार राहा' },
-  { icon: '🦴', tip: 'Take calcium and Vitamin D supplements', detail: 'If your doctor advises, take prescribed calcium and Vitamin D supplements to keep bones strong and prevent fractures.', color: 'blue', hiTip: 'कैल्शियम और विटामिन D सप्लीमेंट लें', mrTip: 'कॅल्शियम आणि व्हिटॅमिन D सप्लिमेंट घ्या' },
-  { icon: '🩻', tip: 'Never self-medicate', detail: 'Always consult your doctor before starting any new medicine. Self-medication can cause serious side effects.', color: 'red', hiTip: 'कभी खुद दवा न लें', mrTip: 'स्वतः औषध घेऊ नका' },
-  { icon: '😄', tip: 'Laugh every day', detail: 'Laughter reduces stress hormones, boosts immunity and improves your overall sense of well-being.', color: 'yellow', hiTip: 'रोज हँसें', mrTip: 'दररोज हसा' },
-  { icon: '🙏', tip: 'End each day with gratitude', detail: 'Think of 3 things you are grateful for before sleeping. A positive mindset supports both mental and physical health.', color: 'green', hiTip: 'हर दिन कृतज्ञता के साथ समाप्त करें', mrTip: 'प्रत्येक दिवस कृतज्ञतेने संपवा' },
+  "Drink at least 8 glasses of water every day to stay hydrated.",
+  "Take a 30-minute walk every morning to keep your heart healthy.",
+  "Eat fresh fruits and vegetables with every meal for good health.",
+  "Never skip breakfast — it gives you energy for the whole day.",
+  "Sleep 7 to 8 hours every night for your body to rest and repair.",
+  "Do light stretching exercises every morning after waking up.",
+  "Avoid adding extra salt to your food — it raises blood pressure.",
+  "Replace cold drinks and soda with water, buttermilk or coconut water.",
+  "Take your medicines on time every day without missing a dose.",
+  "Visit your doctor for a routine check-up every 3 months.",
+  "Check your blood pressure regularly at home and keep a record.",
+  "If you are diabetic, check your blood sugar as advised by your doctor.",
+  "Wear comfortable and well-fitting shoes to prevent falls.",
+  "Keep all rooms and staircases brightly lit to avoid accidents.",
+  "Use a walking stick if you feel unsteady — it prevents dangerous falls.",
+  "Drink milk and eat curd daily for strong bones and teeth.",
+  "Sit in morning sunlight for 15 to 20 minutes to get natural Vitamin D.",
+  "Avoid smoking and alcohol — they damage your heart and lungs.",
+  "Do deep breathing exercises for 5 to 10 minutes every day.",
+  "Do not lift heavy objects — always ask for help when needed.",
+  "Save your doctor and ambulance numbers on your phone and on paper at home.",
+  "Wash your hands with soap for 20 seconds before meals and after the toilet.",
+  "Eat 5 small meals throughout the day instead of 3 large meals.",
+  "Avoid fried and oily foods — choose baked, steamed or boiled food instead.",
+  "Eat oats, lentils and vegetables daily to prevent constipation.",
+  "Talk to family and friends every day to stay mentally healthy.",
+  "Read books or newspapers daily to keep your brain active.",
+  "Solve puzzles, crosswords or sudoku to keep your mind sharp.",
+  "Sit quietly and meditate for 10 minutes each morning to calm your mind.",
+  "If you feel chest pain or breathing difficulty, call a doctor immediately.",
+  "Always carry a written list of all your medicines when you go out.",
+  "Get up and move for 5 minutes every 30 minutes — do not sit too long.",
+  "Hold the railing firmly when using stairs to prevent slipping.",
+  "Place non-slip rubber mats in the bathroom and keep the floor dry.",
+  "Eat eggs, dal, paneer or fish daily to maintain muscle strength.",
+  "Drink no more than 1 to 2 cups of tea or coffee per day.",
+  "Visit an eye doctor once a year to check for vision changes.",
+  "Get a hearing test done if you have difficulty hearing clearly.",
+  "Wear a hat and apply sunscreen when going out in the afternoon sun.",
+  "If you are diabetic, check your feet every day for cuts or sores.",
+  "Avoid very spicy food — it can cause acidity and stomach discomfort.",
+  "Do chair yoga or gentle seated exercises if outdoor walking is difficult.",
+  "Learn something new every week to keep your brain young and active.",
+  "Drink a glass of warm water with lemon every morning to aid digestion.",
+  "Eat spinach, dates and lentils to maintain iron levels and prevent anaemia.",
+  "Do not hold back urination — go to the toilet when you feel the urge.",
+  "Remove loose rugs and wires from walkways to prevent tripping at home.",
+  "Listen to calm and soothing music every day to reduce stress and anxiety.",
+  "Take a short nap of 20 to 30 minutes in the afternoon when tired.",
+  "Never give your medicines to others — every person's dose is different.",
+  "Keep a stocked first aid kit at home and know how to use it.",
+  "Brush your teeth twice daily and visit the dentist every 6 months.",
+  "Maintain a healthy weight with balanced meals and regular light exercise.",
+  "Eat slowly and chew your food well to improve digestion.",
+  "Wear warm layered clothing in winter to protect your joints and chest.",
+  "Take calcium and Vitamin D supplements if your doctor advises you to.",
+  "Never start a new medicine without consulting your doctor first.",
+  "Laugh every day — it reduces stress and boosts your immunity.",
+  "Drink a glass of warm turmeric milk at night to help you sleep better.",
+  "End each day by thinking of 3 things you are grateful for.",
 ];
 
+// ============================================================
+// DATA — MEMORY ITEMS
+// ============================================================
 const MEMORY_ITEMS_DEFAULT = [
-  { id: 1, text: 'Lock the door',  hiText: 'दरवाज़ा बंद करें', mrText: 'दरवाजा बंद करा', emoji: '🚪', checked: false },
-  { id: 2, text: 'Turn off the gas', hiText: 'गैस बंद करें', mrText: 'गॅस बंद करा', emoji: '🔥', checked: false },
-  { id: 3, text: 'Turn off the lights', hiText: 'बत्ती बंद करें', mrText: 'दिवे बंद करा', emoji: '💡', checked: false },
-  { id: 4, text: 'Close all windows', hiText: 'खिड़कियाँ बंद करें', mrText: 'सर्व खिडक्या बंद करा', emoji: '🪟', checked: false },
-  { id: 5, text: 'Take medicine', hiText: 'दवाई लें', mrText: 'औषध घ्या', emoji: '💊', checked: false },
-  { id: 6, text: 'Drink water', hiText: 'पानी पिएं', mrText: 'पाणी प्या', emoji: '💧', checked: false },
-  { id: 7, text: 'Carry keys', hiText: 'चाबियाँ लें', mrText: 'चाव्या घ्या', emoji: '🗝️', checked: false },
-  { id: 8, text: 'Check wallet / phone', hiText: 'बटुआ / फोन चेक करें', mrText: 'पाकीट / फोन तपासा', emoji: '📱', checked: false },
+  { id: 1, text: 'Lock the door',       hiText: 'दरवाज़ा बंद करें',          mrText: 'दरवाजा बंद करा',          emoji: '🚪', checked: false },
+  { id: 2, text: 'Turn off the gas',    hiText: 'गैस बंद करें',              mrText: 'गॅस बंद करा',             emoji: '🔥', checked: false },
+  { id: 3, text: 'Turn off the lights', hiText: 'बत्ती बंद करें',            mrText: 'दिवे बंद करा',            emoji: '💡', checked: false },
+  { id: 4, text: 'Close all windows',   hiText: 'खिड़कियाँ बंद करें',        mrText: 'सर्व खिडक्या बंद करा',   emoji: '🪟', checked: false },
+  { id: 5, text: 'Take medicine',       hiText: 'दवाई लें',                  mrText: 'औषध घ्या',                emoji: '💊', checked: false },
+  { id: 6, text: 'Drink water',         hiText: 'पानी पिएं',                 mrText: 'पाणी प्या',               emoji: '💧', checked: false },
+  { id: 7, text: 'Carry keys',          hiText: 'चाबियाँ लें',              mrText: 'चाव्या घ्या',             emoji: '🗝️', checked: false },
+  { id: 8, text: 'Check wallet / phone',hiText: 'बटुआ / फोन चेक करें',      mrText: 'पाकीट / फोन तपासा',      emoji: '📱', checked: false },
 ];
 
+// ============================================================
+// DATA — DAILY ROUTINE
+// ============================================================
 const ROUTINE_ITEMS_DEFAULT = [
-  { id: 1, emoji: '🌅', label: 'Morning Walk', hiLabel: 'सुबह की सैर', mrLabel: 'सकाळची चाल', time: '6:00 AM', done: false },
-  { id: 2, emoji: '🍳', label: 'Breakfast', hiLabel: 'नाश्ता', mrLabel: 'नाश्ता', time: '8:00 AM', done: false },
-  { id: 3, emoji: '💊', label: 'Morning Medicine', hiLabel: 'सुबह की दवाई', mrLabel: 'सकाळची औषधे', time: '9:00 AM', done: false },
-  { id: 4, emoji: '☀️', label: 'Sunlight / Yoga', hiLabel: 'धूप / योग', mrLabel: 'उन्ह / योग', time: '10:00 AM', done: false },
-  { id: 5, emoji: '🍱', label: 'Lunch', hiLabel: 'दोपहर का खाना', mrLabel: 'दुपारचे जेवण', time: '1:00 PM', done: false },
-  { id: 6, emoji: '😴', label: 'Afternoon Rest', hiLabel: 'दोपहर का आराम', mrLabel: 'दुपारची विश्रांती', time: '2:30 PM', done: false },
-  { id: 7, emoji: '🚶', label: 'Evening Walk', hiLabel: 'शाम की सैर', mrLabel: 'संध्याकाळची चाल', time: '5:00 PM', done: false },
-  { id: 8, emoji: '🍵', label: 'Evening Tea / Snack', hiLabel: 'शाम की चाय', mrLabel: 'संध्याकाळचा चहा', time: '5:30 PM', done: false },
-  { id: 9, emoji: '🌙', label: 'Dinner', hiLabel: 'रात का खाना', mrLabel: 'रात्रीचे जेवण', time: '8:00 PM', done: false },
-  { id: 10, emoji: '🛏️', label: 'Sleep', hiLabel: 'सोने का समय', mrLabel: 'झोपण्याची वेळ', time: '10:00 PM', done: false },
+  { id: 1,  emoji: '🌅', label: 'Morning Walk',       hiLabel: 'सुबह की सैर',          mrLabel: 'सकाळची चाल',            time: '6:00 AM',  done: false },
+  { id: 2,  emoji: '🍳', label: 'Breakfast',           hiLabel: 'नाश्ता',               mrLabel: 'नाश्ता',                 time: '8:00 AM',  done: false },
+  { id: 3,  emoji: '💊', label: 'Morning Medicine',    hiLabel: 'सुबह की दवाई',         mrLabel: 'सकाळची औषधे',           time: '9:00 AM',  done: false },
+  { id: 4,  emoji: '☀️', label: 'Sunlight / Yoga',     hiLabel: 'धूप / योग',            mrLabel: 'उन्ह / योग',            time: '10:00 AM', done: false },
+  { id: 5,  emoji: '🍱', label: 'Lunch',               hiLabel: 'दोपहर का खाना',        mrLabel: 'दुपारचे जेवण',          time: '1:00 PM',  done: false },
+  { id: 6,  emoji: '😴', label: 'Afternoon Rest',      hiLabel: 'दोपहर का आराम',        mrLabel: 'दुपारची विश्रांती',     time: '2:30 PM',  done: false },
+  { id: 7,  emoji: '🚶', label: 'Evening Walk',        hiLabel: 'शाम की सैर',           mrLabel: 'संध्याकाळची चाल',       time: '5:00 PM',  done: false },
+  { id: 8,  emoji: '🍵', label: 'Evening Tea / Snack', hiLabel: 'शाम की चाय',           mrLabel: 'संध्याकाळचा चहा',       time: '5:30 PM',  done: false },
+  { id: 9,  emoji: '🌙', label: 'Dinner',              hiLabel: 'रात का खाना',          mrLabel: 'रात्रीचे जेवण',         time: '8:00 PM',  done: false },
+  { id: 10, emoji: '🛏️', label: 'Sleep',               hiLabel: 'सोने का समय',          mrLabel: 'झोपण्याची वेळ',         time: '10:00 PM', done: false },
 ];
 
+// ============================================================
+// DATA — CYBER TIPS (25 tips)
+// ============================================================
 const CYBER_TIPS = [
-  { icon: '🔐', rule: 'Never share your OTP', detail: 'No bank, government office or company will ever ask for your OTP. Hang up immediately if someone asks.', color: 'red', hiRule: 'कभी OTP शेयर न करें', mrRule: 'कधीही OTP शेअर करू नका' },
-  { icon: '📵', rule: 'Avoid unknown calls', detail: 'Do not trust calls claiming to be from banks, government or police asking for personal info.', color: 'blue', hiRule: 'अज्ञात कॉल से सावधान रहें', mrRule: 'अज्ञात कॉलपासून सावध राहा' },
-  { icon: '🏦', rule: 'Never share bank details', detail: 'Do not share your account number, PIN, CVV, or password with anyone — not even your family.', color: 'purple', hiRule: 'बैंक विवरण कभी न शेयर करें', mrRule: 'बँक तपशील कधीही शेअर करू नका' },
-  { icon: '🔗', rule: 'Do not click unknown links', detail: 'Suspicious links in SMS or WhatsApp can steal your data. Always verify before clicking.', color: 'orange', hiRule: 'अज्ञात लिंक पर क्लिक न करें', mrRule: 'अज्ञात लिंकवर क्लिक करू नका' },
-  { icon: '💸', rule: 'Beware of "free prize" scams', detail: 'If someone says you won a lottery or prize, it is almost certainly a fraud. Do not pay any "processing fee."', color: 'red', hiRule: '"मुफ्त इनाम" घोटालों से सावधान रहें', mrRule: '"मोफत बक्षीस" घोटाळ्यांपासून सावध राहा' },
-  { icon: '🛡️', rule: 'Use strong passwords', detail: 'Use a unique password for each app or website. Do not use birthdays or simple number sequences.', color: 'green', hiRule: 'मजबूत पासवर्ड का उपयोग करें', mrRule: 'मजबूत पासवर्ड वापरा' },
-  { icon: '📲', rule: 'Do not install unknown apps', detail: 'Never install an app on your phone if an unknown caller or message asks you to do so.', color: 'orange', hiRule: 'अज्ञात ऐप्स इंस्टॉल न करें', mrRule: 'अज्ञात अॅप्स इन्स्टॉल करू नका' },
-  { icon: '📷', rule: 'Never scan unknown QR codes', detail: 'Scanning a QR code sent by a stranger can result in money being withdrawn from your account instantly.', color: 'red', hiRule: 'अज्ञात QR कोड कभी स्कैन न करें', mrRule: 'अज्ञात QR कोड कधीही स्कॅन करू नका' },
-  { icon: '🌐', rule: 'Avoid public Wi-Fi for banking', detail: 'Never do banking or payments on public Wi-Fi at malls, hotels or railway stations — it is not safe.', color: 'purple', hiRule: 'बैंकिंग के लिए सार्वजनिक Wi-Fi से बचें', mrRule: 'बँकिंगसाठी सार्वजनिक Wi-Fi टाळा' },
-  { icon: '🏧', rule: 'Be careful at ATMs', detail: 'Do not let strangers help you at ATMs. Cover the keypad while entering your PIN. Check for hidden cameras.', color: 'blue', hiRule: 'ATM पर सावधान रहें', mrRule: 'ATM वर सावध राहा' },
-  { icon: '📞', rule: 'Verify before you trust', detail: 'If someone claims to be from a government office or bank, hang up and call back on the official number yourself.', color: 'green', hiRule: 'भरोसा करने से पहले सत्यापित करें', mrRule: 'विश्वास ठेवण्यापूर्वी सत्यापित करा' },
-  { icon: '💬', rule: 'Do not forward unverified messages', detail: 'Do not forward WhatsApp messages about fake offers, government schemes or health cures without checking.', color: 'orange', hiRule: 'बिना जाँचे संदेश फॉरवर्ड न करें', mrRule: 'न तपासता संदेश फॉरवर्ड करू नका' },
-  { icon: '🔒', rule: 'Lock your phone always', detail: 'Always keep your phone locked with a PIN, pattern or fingerprint to protect your personal information.', color: 'blue', hiRule: 'फोन हमेशा लॉक रखें', mrRule: 'फोन नेहमी लॉक ठेवा' },
-  { icon: '📋', rule: 'Check bank statements regularly', detail: 'Review your bank passbook or app every week for unknown transactions. Report any suspicious entry immediately.', color: 'green', hiRule: 'बैंक स्टेटमेंट नियमित जाँचें', mrRule: 'बँक स्टेटमेंट नियमित तपासा' },
-  { icon: '🚫', rule: 'Never give your phone to strangers', detail: 'Do not hand your phone to an unknown person to make a call — they may install spy apps or steal your data.', color: 'red', hiRule: 'अजनबियों को फोन न दें', mrRule: 'अनोळखी व्यक्तींना फोन देऊ नका' },
-  { icon: '📧', rule: 'Ignore suspicious emails', detail: 'Do not open emails from unknown senders asking for passwords, bank info or personal documents.', color: 'purple', hiRule: 'संदिग्ध ईमेल को अनदेखा करें', mrRule: 'संशयास्पद ईमेल दुर्लक्षित करा' },
-  { icon: '🌍', rule: 'Do not call back unknown international numbers', detail: 'If you receive a missed call from an unknown international number, do not call it back — it may be a scam.', color: 'orange', hiRule: 'अज्ञात अंतर्राष्ट्रीय नंबर वापस न करें', mrRule: 'अज्ञात आंतरराष्ट्रीय नंबरवर परत कॉल करू नका' },
-  { icon: '🧾', rule: 'Set transaction limits on your account', detail: 'Ask your bank to set daily transaction limits on your account to reduce risk in case of fraud.', color: 'green', hiRule: 'खाते पर लेनदेन सीमा निर्धारित करें', mrRule: 'खात्यावर व्यवहार मर्यादा सेट करा' },
-  { icon: '🤝', rule: 'Consult family before big payments', detail: 'Always talk to a trusted family member before making any large payment or financial decision online.', color: 'blue', hiRule: 'बड़े भुगतान से पहले परिवार से सलाह लें', mrRule: 'मोठे पेमेंट करण्यापूर्वी कुटुंबाशी सल्लामसलत करा' },
-  { icon: '🆘', rule: 'Report cyber fraud immediately', detail: 'If you are cheated online, call the National Cyber Crime Helpline at 1930 without any delay.', color: 'red', hiRule: 'साइबर धोखाधड़ी तुरंत रिपोर्ट करें', mrRule: 'सायबर फसवणूक त्वरित नोंदवा' },
-  { icon: '🧠', rule: 'Beware of emotional manipulation', detail: 'Scammers create urgency or fear to confuse you. Stay calm and never make rushed decisions over the phone.', color: 'purple', hiRule: 'भावनात्मक हेरफेर से सावधान रहें', mrRule: 'भावनिक फसवणुकीपासून सावध राहा' },
-  { icon: '💳', rule: 'Use UPI and cards carefully', detail: 'Never enter your UPI PIN to receive money — PIN is only needed when you send money, not receive it.', color: 'orange', hiRule: 'UPI और कार्ड सावधानी से उपयोग करें', mrRule: 'UPI आणि कार्ड सावधानीने वापरा' },
-  { icon: '🖥️', rule: 'Use only official banking websites', detail: 'Always type your bank\'s website address yourself in the browser. Do not rely on links from search engines or messages.', color: 'green', hiRule: 'केवल आधिकारिक बैंकिंग वेबसाइट का उपयोग करें', mrRule: 'फक्त अधिकृत बँकिंग वेबसाइट वापरा' },
-  { icon: '🔕', rule: 'Block and report spam calls', detail: 'Use your phone\'s built-in feature or apps like Truecaller to identify and block suspicious spam callers.', color: 'blue', hiRule: 'स्पैम कॉल को ब्लॉक और रिपोर्ट करें', mrRule: 'स्पॅम कॉल ब्लॉक करा आणि रिपोर्ट करा' },
-  { icon: '👨‍👩‍👧', rule: 'Stay educated about new scams', detail: 'Ask your children or grandchildren to regularly update you about new types of online frauds happening around.', color: 'green', hiRule: 'नए घोटालों के बारे में जागरूक रहें', mrRule: 'नवीन घोटाळ्यांबद्दल जागरूक राहा' },
+  { icon: '🔐', rule: 'Never share your OTP',                       detail: 'No bank, government office or company will ever ask for your OTP. Hang up immediately if someone asks.',                        color: 'red',    hiRule: 'कभी OTP शेयर न करें',                          mrRule: 'कधीही OTP शेअर करू नका' },
+  { icon: '📵', rule: 'Avoid unknown calls',                        detail: 'Do not trust calls claiming to be from banks, government or police asking for personal info.',                                   color: 'blue',   hiRule: 'अज्ञात कॉल से सावधान रहें',                    mrRule: 'अज्ञात कॉलपासून सावध राहा' },
+  { icon: '🏦', rule: 'Never share bank details',                   detail: 'Do not share your account number, PIN, CVV, or password with anyone — not even your family.',                                   color: 'purple', hiRule: 'बैंक विवरण कभी न शेयर करें',                   mrRule: 'बँक तपशील कधीही शेअर करू नका' },
+  { icon: '🔗', rule: 'Do not click unknown links',                 detail: 'Suspicious links in SMS or WhatsApp can steal your data. Always verify before clicking.',                                        color: 'orange', hiRule: 'अज्ञात लिंक पर क्लिक न करें',                 mrRule: 'अज्ञात लिंकवर क्लिक करू नका' },
+  { icon: '💸', rule: 'Beware of "free prize" scams',               detail: 'If someone says you won a lottery or prize, it is almost certainly a fraud. Do not pay any "processing fee."',                  color: 'red',    hiRule: '"मुफ्त इनाम" घोटालों से सावधान रहें',          mrRule: '"मोफत बक्षीस" घोटाळ्यांपासून सावध राहा' },
+  { icon: '🛡️', rule: 'Use strong passwords',                       detail: 'Use a unique password for each app or website. Do not use birthdays or simple number sequences.',                               color: 'green',  hiRule: 'मजबूत पासवर्ड का उपयोग करें',                  mrRule: 'मजबूत पासवर्ड वापरा' },
+  { icon: '📲', rule: 'Do not install unknown apps',                detail: 'Never install an app on your phone if an unknown caller or message asks you to do so.',                                          color: 'orange', hiRule: 'अज्ञात ऐप्स इंस्टॉल न करें',                  mrRule: 'अज्ञात अॅप्स इन्स्टॉल करू नका' },
+  { icon: '📷', rule: 'Never scan unknown QR codes',                detail: 'Scanning a QR code sent by a stranger can result in money being withdrawn from your account instantly.',                        color: 'red',    hiRule: 'अज्ञात QR कोड कभी स्कैन न करें',              mrRule: 'अज्ञात QR कोड कधीही स्कॅन करू नका' },
+  { icon: '🌐', rule: 'Avoid public Wi-Fi for banking',             detail: 'Never do banking or payments on public Wi-Fi at malls, hotels or railway stations — it is not safe.',                          color: 'purple', hiRule: 'बैंकिंग के लिए सार्वजनिक Wi-Fi से बचें',      mrRule: 'बँकिंगसाठी सार्वजनिक Wi-Fi टाळा' },
+  { icon: '🏧', rule: 'Be careful at ATMs',                         detail: 'Do not let strangers help you at ATMs. Cover the keypad while entering your PIN. Check for hidden cameras.',                   color: 'blue',   hiRule: 'ATM पर सावधान रहें',                            mrRule: 'ATM वर सावध राहा' },
+  { icon: '📞', rule: 'Verify before you trust',                    detail: 'If someone claims to be from a government office or bank, hang up and call back on the official number yourself.',             color: 'green',  hiRule: 'भरोसा करने से पहले सत्यापित करें',             mrRule: 'विश्वास ठेवण्यापूर्वी सत्यापित करा' },
+  { icon: '💬', rule: 'Do not forward unverified messages',         detail: 'Do not forward WhatsApp messages about fake offers, government schemes or health cures without checking.',                     color: 'orange', hiRule: 'बिना जाँचे संदेश फॉरवर्ड न करें',              mrRule: 'न तपासता संदेश फॉरवर्ड करू नका' },
+  { icon: '🔒', rule: 'Lock your phone always',                     detail: 'Always keep your phone locked with a PIN, pattern or fingerprint to protect your personal information.',                       color: 'blue',   hiRule: 'फोन हमेशा लॉक रखें',                           mrRule: 'फोन नेहमी लॉक ठेवा' },
+  { icon: '📋', rule: 'Check bank statements regularly',            detail: 'Review your bank passbook or app every week for unknown transactions. Report any suspicious entry immediately.',               color: 'green',  hiRule: 'बैंक स्टेटमेंट नियमित जाँचें',                 mrRule: 'बँक स्टेटमेंट नियमित तपासा' },
+  { icon: '🚫', rule: 'Never give your phone to strangers',         detail: 'Do not hand your phone to an unknown person to make a call — they may install spy apps or steal your data.',                  color: 'red',    hiRule: 'अजनबियों को फोन न दें',                         mrRule: 'अनोळखी व्यक्तींना फोन देऊ नका' },
+  { icon: '📧', rule: 'Ignore suspicious emails',                   detail: 'Do not open emails from unknown senders asking for passwords, bank info or personal documents.',                               color: 'purple', hiRule: 'संदिग्ध ईमेल को अनदेखा करें',                  mrRule: 'संशयास्पद ईमेल दुर्लक्षित करा' },
+  { icon: '🌍', rule: 'Do not call back unknown international numbers', detail: 'If you receive a missed call from an unknown international number, do not call it back — it may be a scam.',              color: 'orange', hiRule: 'अज्ञात अंतर्राष्ट्रीय नंबर वापस न करें',       mrRule: 'अज्ञात आंतरराष्ट्रीय नंबरवर परत कॉल करू नका' },
+  { icon: '🧾', rule: 'Set transaction limits on your account',     detail: 'Ask your bank to set daily transaction limits on your account to reduce risk in case of fraud.',                              color: 'green',  hiRule: 'खाते पर लेनदेन सीमा निर्धारित करें',           mrRule: 'खात्यावर व्यवहार मर्यादा सेट करा' },
+  { icon: '🤝', rule: 'Consult family before big payments',         detail: 'Always talk to a trusted family member before making any large payment or financial decision online.',                         color: 'blue',   hiRule: 'बड़े भुगतान से पहले परिवार से सलाह लें',        mrRule: 'मोठे पेमेंट करण्यापूर्वी कुटुंबाशी सल्लामसलत करा' },
+  { icon: '🆘', rule: 'Report cyber fraud immediately',             detail: 'If you are cheated online, call the National Cyber Crime Helpline at 1930 without any delay.',                                color: 'red',    hiRule: 'साइबर धोखाधड़ी तुरंत रिपोर्ट करें',            mrRule: 'सायबर फसवणूक त्वरित नोंदवा' },
+  { icon: '🧠', rule: 'Beware of emotional manipulation',           detail: 'Scammers create urgency or fear to confuse you. Stay calm and never make rushed decisions over the phone.',                   color: 'purple', hiRule: 'भावनात्मक हेरफेर से सावधान रहें',               mrRule: 'भावनिक फसवणुकीपासून सावध राहा' },
+  { icon: '💳', rule: 'Use UPI and cards carefully',                detail: 'Never enter your UPI PIN to receive money — PIN is only needed when you send money, not receive it.',                         color: 'orange', hiRule: 'UPI और कार्ड सावधानी से उपयोग करें',           mrRule: 'UPI आणि कार्ड सावधानीने वापरा' },
+  { icon: '🖥️', rule: 'Use only official banking websites',         detail: "Always type your bank's website address yourself in the browser. Do not rely on links from search engines or messages.",     color: 'green',  hiRule: 'केवल आधिकारिक बैंकिंग वेबसाइट का उपयोग करें', mrRule: 'फक्त अधिकृत बँकिंग वेबसाइट वापरा' },
+  { icon: '🔕', rule: 'Block and report spam calls',                detail: "Use your phone's built-in feature or apps like Truecaller to identify and block suspicious spam callers.",                   color: 'blue',   hiRule: 'स्पैम कॉल को ब्लॉक और रिपोर्ट करें',           mrRule: 'स्पॅम कॉल ब्लॉक करा आणि रिपोर्ट करा' },
+  { icon: '👨‍👩‍👧', rule: 'Stay educated about new scams',            detail: 'Ask your children or grandchildren to regularly update you about new types of online frauds happening around.',             color: 'green',  hiRule: 'नए घोटालों के बारे में जागरूक रहें',            mrRule: 'नवीन घोटाळ्यांबद्दल जागरूक राहा' },
 ];
 
 // ============================================================
@@ -367,10 +377,11 @@ function useLocalStorage(key, initialValue) {
   });
 
   const setValueAndStore = useCallback((val) => {
-    setValue(val);
-    try {
-      localStorage.setItem(key, JSON.stringify(val));
-    } catch {}
+    setValue(prev => {
+      const next = typeof val === 'function' ? val(prev) : val;
+      try { localStorage.setItem(key, JSON.stringify(next)); } catch {}
+      return next;
+    });
   }, [key]);
 
   return [value, setValueAndStore];
@@ -404,8 +415,8 @@ function LanguageScreen({ onSelect }) {
 
   const langs = [
     { code: 'en', name: 'English', native: 'English', flag: '🇬🇧' },
-    { code: 'hi', name: 'Hindi', native: 'हिन्दी', flag: '🇮🇳' },
-    { code: 'mr', name: 'Marathi', native: 'मराठी', flag: '🟠' },
+    { code: 'hi', name: 'Hindi',   native: 'हिन्दी',  flag: '🇮🇳' },
+    { code: 'mr', name: 'Marathi', native: 'मराठी',   flag: '🟠' },
   ];
 
   return (
@@ -431,20 +442,18 @@ function LanguageScreen({ onSelect }) {
 // WATER REMINDER
 // ============================================================
 function WaterReminder({ t, addAlert, showToast }) {
-  const [on, setOn] = useLocalStorage('water_on', false);
-  const [interval, setIntervalMins] = useLocalStorage('water_interval', 60);
-  const [glasses, setGlasses] = useLocalStorage('water_glasses', 0);
-  const timerRef = useRef(null);
-  const lastReminderRef = useRef(Date.now());
+  const [on, setOn]                     = useLocalStorage('water_on', false);
+  const [interval, setIntervalMins]     = useLocalStorage('water_interval', 60);
+  const [glasses, setGlasses]           = useLocalStorage('water_glasses', 0);
+  const timerRef                        = useRef(null);
 
   useEffect(() => {
     if (timerRef.current) clearInterval(timerRef.current);
     if (on) {
       timerRef.current = setInterval(() => {
         showToast('💧 Time to drink water! Stay hydrated.', 'info', '💧');
-        const now = new Date();
+        const now     = new Date();
         const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-        lastReminderRef.current = Date.now();
         addAlert({ id: Date.now(), type: 'info', icon: '💧', title: 'Water Reminder', detail: `Reminder sent at ${timeStr}`, auto: true });
       }, interval * 60 * 1000);
     }
@@ -452,9 +461,9 @@ function WaterReminder({ t, addAlert, showToast }) {
   }, [on, interval]); // eslint-disable-line
 
   const intervals = [
-    { mins: 30, label: t.min30 },
-    { mins: 60, label: t.min60 },
-    { mins: 90, label: t.min90 },
+    { mins: 30,  label: t.min30  },
+    { mins: 60,  label: t.min60  },
+    { mins: 90,  label: t.min90  },
     { mins: 120, label: t.min120 },
   ];
 
@@ -499,8 +508,9 @@ function WaterReminder({ t, addAlert, showToast }) {
           <div className="water-count">Goal: 8 glasses per day</div>
           <div className="water-glass-row">
             {Array.from({ length: 8 }).map((_, i) => (
-              <span key={i} className="glass-item"
-                title={`Glass ${i + 1}`}>{i < glasses ? '🥛' : '🫙'}</span>
+              <span key={i} className="glass-item" title={`Glass ${i + 1}`}>
+                {i < glasses ? '🥛' : '🫙'}
+              </span>
             ))}
           </div>
         </div>
@@ -520,11 +530,17 @@ function WaterReminder({ t, addAlert, showToast }) {
 // ============================================================
 // MEDICINE REMINDER
 // ============================================================
-function MedicineReminder({ t, lang, addAlert, showToast }) {
+function MedicineReminder({ t, addAlert, showToast }) {
   const [medicines, setMedicines] = useLocalStorage('medicines', []);
-  const [medName, setMedName] = useState('');
-  const [medTime, setMedTime] = useState('08:00');
-  const [medFreq, setMedFreq] = useState('once');
+  const [medName, setMedName]     = useState('');
+  const [medTime, setMedTime]     = useState('08:00');
+  const [medFreq, setMedFreq]     = useState('once');
+
+  const freqOptions = [
+    { val: 'once',   label: t.once   },
+    { val: 'twice',  label: t.twice  },
+    { val: 'thrice', label: t.thrice },
+  ];
 
   const addMed = () => {
     if (!medName.trim()) { showToast('Please enter medicine name.', 'warning', '⚠️'); return; }
@@ -535,21 +551,19 @@ function MedicineReminder({ t, lang, addAlert, showToast }) {
   };
 
   const toggleTaken = (id) => {
-    setMedicines(prev => prev.map(m => m.id === id ? { ...m, taken: !m.taken } : m));
-    const med = medicines.find(m => m.id === id);
-    if (med && !med.taken) showToast(`💊 ${med.name} marked as taken!`, 'success', '💊');
+    setMedicines(prev => prev.map(m => {
+      if (m.id === id) {
+        if (!m.taken) showToast(`💊 ${m.name} marked as taken!`, 'success', '💊');
+        return { ...m, taken: !m.taken };
+      }
+      return m;
+    }));
   };
 
   const deleteMed = (id) => {
     setMedicines(prev => prev.filter(m => m.id !== id));
     showToast('Medicine removed.', 'info', '💊');
   };
-
-  const freqOptions = [
-    { val: 'once', label: t.once },
-    { val: 'twice', label: t.twice },
-    { val: 'thrice', label: t.thrice },
-  ];
 
   return (
     <section className="feature-section" id="medicine">
@@ -611,12 +625,14 @@ function MedicineReminder({ t, lang, addAlert, showToast }) {
 }
 
 // ============================================================
-// HEALTH TIPS
+// HEALTH TIPS  ← FIXED
 // ============================================================
-function HealthTips({ t, lang }) {
+function HealthTips({ t }) {
   const [tipIdx, setTipIdx] = useLocalStorage('tip_idx', 0);
   const [animate, setAnimate] = useState(false);
-  const tip = HEALTH_TIPS[tipIdx % HEALTH_TIPS.length];
+
+  const currentIndex = tipIdx % HEALTH_TIPS.length;
+  const currentTip   = HEALTH_TIPS[currentIndex] || 'No tip available';
 
   const nextTip = () => {
     setAnimate(true);
@@ -624,12 +640,6 @@ function HealthTips({ t, lang }) {
       setTipIdx(i => (i + 1) % HEALTH_TIPS.length);
       setAnimate(false);
     }, 250);
-  };
-
-  const getText = () => {
-    if (lang === 'hi' && tip.hi) return tip.hi;
-    if (lang === 'mr' && tip.mr) return tip.mr;
-    return tip.text;
   };
 
   return (
@@ -643,15 +653,14 @@ function HealthTips({ t, lang }) {
       </div>
 
       <div className="tip-card" style={{ opacity: animate ? 0 : 1, transition: 'opacity 0.25s' }}>
-        <div className="tip-icon">{tip.icon}</div>
-        <span className="tip-category">{tip.category}</span>
-        <p className="tip-text">{getText()}</p>
+        <div className="tip-icon">💡</div>
+        <p className="tip-text">{currentTip}</p>
       </div>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 18, flexWrap: 'wrap' }}>
         <button className="btn btn-primary" onClick={nextTip}>{t.nextTip}</button>
         <span style={{ fontSize: 14, color: 'var(--text-muted)', fontWeight: 700 }}>
-          Tip {(tipIdx % HEALTH_TIPS.length) + 1} of {HEALTH_TIPS.length}
+          Tip {currentIndex + 1} of {HEALTH_TIPS.length}
         </span>
       </div>
     </section>
@@ -671,7 +680,7 @@ function MemoryHelper({ t, lang }) {
   const reset = () => setItems(MEMORY_ITEMS_DEFAULT);
 
   const checkedCount = items.filter(i => i.checked).length;
-  const pct = Math.round((checkedCount / items.length) * 100);
+  const pct          = Math.round((checkedCount / items.length) * 100);
 
   const getLabel = (it) => {
     if (lang === 'hi' && it.hiText) return it.hiText;
@@ -777,8 +786,8 @@ function DailyRoutine({ t, lang }) {
 // MISSED ALERTS
 // ============================================================
 function AlertsSection({ t, alerts, setAlerts }) {
-  const dismiss = (id) => setAlerts(prev => prev.filter(a => a.id !== id));
-  const dismissAll = () => setAlerts([]);
+  const dismiss    = (id) => setAlerts(prev => prev.filter(a => a.id !== id));
+  const dismissAll = ()   => setAlerts([]);
 
   return (
     <section className="feature-section" id="alerts">
@@ -857,10 +866,10 @@ function CyberSafety({ t, lang }) {
 // MAIN APP
 // ============================================================
 export default function App() {
-  const [lang, setLang] = useLocalStorage('selected_lang', null);
+  const [lang, setLang]         = useLocalStorage('selected_lang', null);
   const [darkMode, setDarkMode] = useLocalStorage('dark_mode', false);
-  const [alerts, setAlerts] = useLocalStorage('alerts_list', []);
-  const [toasts, setToasts] = useState([]);
+  const [alerts, setAlerts]     = useLocalStorage('alerts_list', []);
+  const [toasts, setToasts]     = useState([]);
   const [activeNav, setActiveNav] = useState('water');
 
   useEffect(() => {
@@ -881,7 +890,7 @@ export default function App() {
     const el = document.getElementById(id);
     if (el) {
       const offset = 80;
-      const top = el.getBoundingClientRect().top + window.scrollY - offset;
+      const top    = el.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top, behavior: 'smooth' });
     }
     setActiveNav(id);
@@ -894,17 +903,18 @@ export default function App() {
   const t = T[lang] || T.en;
 
   const navItems = [
-    { id: 'water',    icon: '💧', label: t.water },
-    { id: 'medicine', icon: '💊', label: t.medicine },
+    { id: 'water',    icon: '💧', label: t.water      },
+    { id: 'medicine', icon: '💊', label: t.medicine   },
     { id: 'tips',     icon: '📰', label: t.healthTips },
-    { id: 'memory',   icon: '🧠', label: t.memory },
-    { id: 'routine',  icon: '⏰', label: t.routine },
-    { id: 'alerts',   icon: '🔔', label: t.alerts },
-    { id: 'cyber',    icon: '🛡️', label: t.cyber },
+    { id: 'memory',   icon: '🧠', label: t.memory     },
+    { id: 'routine',  icon: '⏰', label: t.routine    },
+    { id: 'alerts',   icon: '🔔', label: t.alerts     },
+    { id: 'cyber',    icon: '🛡️', label: t.cyber      },
   ];
 
   return (
     <div className="app-wrapper">
+
       {/* HEADER */}
       <header className="app-header">
         <div className="header-top">
@@ -944,21 +954,19 @@ export default function App() {
 
       {/* MAIN */}
       <main className="main-content">
-        <WaterReminder t={t} lang={lang} addAlert={addAlert} showToast={showToast} />
+        <WaterReminder    t={t} lang={lang} addAlert={addAlert} showToast={showToast} />
         <MedicineReminder t={t} lang={lang} addAlert={addAlert} showToast={showToast} />
-        <HealthTips t={t} lang={lang} />
-        <MemoryHelper t={t} lang={lang} />
-        <DailyRoutine t={t} lang={lang} />
-        <AlertsSection t={t} alerts={alerts} setAlerts={setAlerts} />
-        <CyberSafety t={t} lang={lang} />
+        <HealthTips       t={t} lang={lang} />
+        <MemoryHelper     t={t} lang={lang} />
+        <DailyRoutine     t={t} lang={lang} />
+        <AlertsSection    t={t} alerts={alerts} setAlerts={setAlerts} />
+        <CyberSafety      t={t} lang={lang} />
       </main>
 
       {/* FOOTER */}
       <footer className="app-footer">
         <div className="footer-divider" />
-        <div className="footer-brand">
-          🧓 {t.builtBy}
-        </div>
+        <div className="footer-brand">🧓 {t.builtBy}</div>
         <p className="footer-contact">{t.enquiry}</p>
         <a className="footer-link" href={`mailto:${t.email}`}>{t.email}</a>
         <div className="footer-divider" />
@@ -967,6 +975,7 @@ export default function App() {
 
       {/* TOAST */}
       <Toast toasts={toasts} />
+
     </div>
   );
 }
