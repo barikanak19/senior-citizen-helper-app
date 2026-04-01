@@ -927,7 +927,7 @@ function Feedback({ lang }) {
   const L = labels[lang] || labels.en;
 
   // Replace this URL with your Google Apps Script Web App URL
-  const GOOGLE_SCRIPT_URL = 'ghttps://script.google.com/macros/s/AKfycbwkXtxX7b1fWm4iLQMdqEyqAzdzVSkelhpghftBFPB6VYkSF5smlWustTGlWUVExHZjRQ/exec';
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwkXtxX7b1fWm4iLQMdqEyqAzdzVSkelhpghftBFPB6VYkSF5smlWustTGlWUVExHZjRQ/exec';
 
   const handleSubmit = async () => {
     setError('');
