@@ -23,6 +23,7 @@ const T = {
     routine: 'Routine',
     alerts: 'Alerts',
     cyber: 'Cyber Safety',
+    feedback: 'Feedback',
 
     // Water
     waterTitle: 'Water Reminder 💧',
@@ -105,6 +106,7 @@ const T = {
     routine: 'दिनचर्या',
     alerts: 'अलर्ट',
     cyber: 'सुरक्षा',
+    feedback: 'फीडबैक',
 
     waterTitle: 'पानी रिमाइंडर 💧',
     waterDesc: 'दिन भर हाइड्रेटेड रहें',
@@ -179,6 +181,7 @@ const T = {
     routine: 'दिनक्रम',
     alerts: 'सूचना',
     cyber: 'सुरक्षा',
+    feedback: 'अभिप्राय',
 
     waterTitle: 'पाणी स्मरणपत्र 💧',
     waterDesc: 'दिवसभर हायड्रेटेड राहा',
@@ -625,7 +628,7 @@ function MedicineReminder({ t, addAlert, showToast }) {
 }
 
 // ============================================================
-// HEALTH TIPS  ← FIXED
+// HEALTH TIPS
 // ============================================================
 function HealthTips({ t }) {
   const [tipIdx, setTipIdx] = useLocalStorage('tip_idx', 0);
@@ -863,13 +866,232 @@ function CyberSafety({ t, lang }) {
 }
 
 // ============================================================
+// FEEDBACK
+// ============================================================
+function Feedback({ lang }) {
+  const [name, setName]           = useState('');
+  const [message, setMessage]     = useState('');
+  const [loading, setLoading]     = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError]         = useState('');
+
+  // Labels for all 3 languages
+  const labels = {
+    en: {
+      title:              'Feedback 💬',
+      desc:               'We value your thoughts and suggestions',
+      namePlaceholder:    'Enter your name',
+      messagePlaceholder: 'Write your feedback here...',
+      nameLabel:          'Your Name',
+      messageLabel:       'Your Feedback',
+      submit:             '📩 Submit Feedback',
+      submitting:         '⏳ Submitting...',
+      successMsg:         '🎉 Thank you for your feedback!',
+      successSub:         'Your response has been recorded.',
+      errorEmpty:         'Please fill in both Name and Feedback before submitting.',
+      errorFail:          'Something went wrong. Please try again.',
+      reset:              '✏️ Submit Another',
+    },
+    hi: {
+      title:              'फीडबैक 💬',
+      desc:               'हम आपके विचारों और सुझावों को महत्व देते हैं',
+      namePlaceholder:    'अपना नाम दर्ज करें',
+      messagePlaceholder: 'यहाँ अपना फीडबैक लिखें...',
+      nameLabel:          'आपका नाम',
+      messageLabel:       'आपका फीडबैक',
+      submit:             '📩 फीडबैक भेजें',
+      submitting:         '⏳ भेजा जा रहा है...',
+      successMsg:         '🎉 आपके फीडबैक के लिए धन्यवाद!',
+      successSub:         'आपका जवाब दर्ज कर लिया गया है।',
+      errorEmpty:         'कृपया सबमिट करने से पहले नाम और फीडबैक दोनों भरें।',
+      errorFail:          'कुछ गलत हुआ। कृपया पुनः प्रयास करें।',
+      reset:              '✏️ एक और भेजें',
+    },
+    mr: {
+      title:              'अभिप्राय 💬',
+      desc:               'आम्ही तुमचे विचार आणि सूचना महत्त्वाच्या मानतो',
+      namePlaceholder:    'तुमचे नाव टाका',
+      messagePlaceholder: 'येथे तुमचा अभिप्राय लिहा...',
+      nameLabel:          'तुमचे नाव',
+      messageLabel:       'तुमचा अभिप्राय',
+      submit:             '📩 अभिप्राय पाठवा',
+      submitting:         '⏳ पाठवत आहे...',
+      successMsg:         '🎉 तुमच्या अभिप्रायाबद्दल धन्यवाद!',
+      successSub:         'तुमचा प्रतिसाद नोंदवला गेला आहे।',
+      errorEmpty:         'कृपया सबमिट करण्यापूर्वी नाव आणि अभिप्राय दोन्ही भरा।',
+      errorFail:          'काहीतरी चुकले. कृपया पुन्हा प्रयत्न करा.',
+      reset:              '✏️ आणखी एक पाठवा',
+    },
+  };
+
+  const L = labels[lang] || labels.en;
+
+  // Replace this URL with your Google Apps Script Web App URL
+  const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERhttps://script.google.com/macros/s/AKfycbwkXtxX7b1fWm4iLQMdqEyqAzdzVSkelhpghftBFPB6VYkSF5smlWustTGlWUVExHZjRQ/execE';
+
+  const handleSubmit = async () => {
+    setError('');
+
+    if (!name.trim() || !message.trim()) {
+      setError(L.errorEmpty);
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors', // required for Google Apps Script
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name:    name.trim(),
+          message: message.trim(),
+        }),
+      });
+      // no-cors means we can't read the response — assume success
+      setSubmitted(true);
+      setName('');
+      setMessage('');
+    } catch (err) {
+      setError(L.errorFail);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleReset = () => {
+    setSubmitted(false);
+    setError('');
+  };
+
+  return (
+    <section className="feature-section" id="feedback">
+      <div className="section-header">
+        <span className="section-icon">💬</span>
+        <div>
+          <h2 className="section-title">{L.title}</h2>
+          <p className="section-desc">{L.desc}</p>
+        </div>
+      </div>
+
+      {submitted ? (
+        <div style={{
+          textAlign:    'center',
+          padding:      '32px 16px',
+          background:   'var(--card-bg)',
+          borderRadius: 16,
+          border:       '2px solid var(--border)',
+          marginTop:    8,
+        }}>
+          <div style={{ fontSize: 52, marginBottom: 12 }}>✅</div>
+          <div style={{
+            fontSize:     20,
+            fontWeight:   800,
+            color:        'var(--text-primary)',
+            marginBottom: 6,
+          }}>
+            {L.successMsg}
+          </div>
+          <div style={{
+            fontSize:     14,
+            color:        'var(--text-muted)',
+            marginBottom: 24,
+          }}>
+            {L.successSub}
+          </div>
+          <button className="btn btn-outline btn-sm" onClick={handleReset}>
+            {L.reset}
+          </button>
+        </div>
+      ) : (
+        <div style={{
+          background:    'var(--card-bg)',
+          borderRadius:  16,
+          border:        '2px solid var(--border)',
+          padding:       '24px 20px',
+          marginTop:     8,
+          display:       'flex',
+          flexDirection: 'column',
+          gap:           18,
+        }}>
+          {/* Name Field */}
+          <div className="form-group">
+            <label className="form-label">{L.nameLabel}</label>
+            <input
+              className="form-input"
+              type="text"
+              placeholder={L.namePlaceholder}
+              value={name}
+              onChange={e => { setName(e.target.value); setError(''); }}
+              disabled={loading}
+              style={{ fontSize: 16 }}
+            />
+          </div>
+
+          {/* Feedback Textarea */}
+          <div className="form-group">
+            <label className="form-label">{L.messageLabel}</label>
+            <textarea
+              className="form-input"
+              placeholder={L.messagePlaceholder}
+              value={message}
+              onChange={e => { setMessage(e.target.value); setError(''); }}
+              disabled={loading}
+              rows={5}
+              style={{
+                resize:     'vertical',
+                fontSize:   16,
+                lineHeight: 1.6,
+                minHeight:  120,
+                fontFamily: 'inherit',
+              }}
+            />
+          </div>
+
+          {/* Error Message */}
+          {error && (
+            <div style={{
+              background:   'var(--danger-bg, #fff0f0)',
+              border:       '1.5px solid var(--danger, #e53e3e)',
+              borderRadius: 10,
+              padding:      '10px 14px',
+              color:        'var(--danger, #c53030)',
+              fontSize:     14,
+              fontWeight:   600,
+            }}>
+              ⚠️ {error}
+            </div>
+          )}
+
+          {/* Submit Button */}
+          <button
+            className="btn btn-primary"
+            onClick={handleSubmit}
+            disabled={loading}
+            style={{
+              fontSize: 16,
+              padding:  '12px 24px',
+              opacity:  loading ? 0.7 : 1,
+              cursor:   loading ? 'not-allowed' : 'pointer',
+            }}
+          >
+            {loading ? L.submitting : L.submit}
+          </button>
+        </div>
+      )}
+    </section>
+  );
+}
+
+// ============================================================
 // MAIN APP
 // ============================================================
 export default function App() {
-  const [lang, setLang]         = useLocalStorage('selected_lang', null);
-  const [darkMode, setDarkMode] = useLocalStorage('dark_mode', false);
-  const [alerts, setAlerts]     = useLocalStorage('alerts_list', []);
-  const [toasts, setToasts]     = useState([]);
+  const [lang, setLang]           = useLocalStorage('selected_lang', null);
+  const [darkMode, setDarkMode]   = useLocalStorage('dark_mode', false);
+  const [alerts, setAlerts]       = useLocalStorage('alerts_list', []);
+  const [toasts, setToasts]       = useState([]);
   const [activeNav, setActiveNav] = useState('water');
 
   useEffect(() => {
@@ -910,6 +1132,7 @@ export default function App() {
     { id: 'routine',  icon: '⏰', label: t.routine    },
     { id: 'alerts',   icon: '🔔', label: t.alerts     },
     { id: 'cyber',    icon: '🛡️', label: t.cyber      },
+    { id: 'feedback', icon: '💬', label: t.feedback   },
   ];
 
   return (
@@ -961,6 +1184,7 @@ export default function App() {
         <DailyRoutine     t={t} lang={lang} />
         <AlertsSection    t={t} alerts={alerts} setAlerts={setAlerts} />
         <CyberSafety      t={t} lang={lang} />
+        <Feedback         lang={lang} />
       </main>
 
       {/* FOOTER */}
