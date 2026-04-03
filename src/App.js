@@ -14,8 +14,6 @@ const T = {
     darkMode: '🌙 Dark',
     lightMode: '☀️ Light',
     changeLanguage: '🌐 Language',
-
-    // Nav
     water: 'Water',
     medicine: 'Medicine',
     healthTips: 'Health Tips',
@@ -24,8 +22,6 @@ const T = {
     alerts: 'Alerts',
     cyber: 'Cyber Safety',
     feedback: 'Feedback',
-
-    // Water
     waterTitle: 'Water Reminder 💧',
     waterDesc: 'Stay hydrated throughout the day',
     waterOn: 'Reminder is ON',
@@ -38,8 +34,6 @@ const T = {
     waterCount: 'Glasses drunk today:',
     drinkNow: '+ Drink a Glass',
     resetWater: 'Reset Count',
-
-    // Medicine
     medicineTitle: 'Medicine Reminder 💊',
     medicineDesc: 'Never miss your medications',
     addMedicine: 'Add Medicine',
@@ -54,36 +48,24 @@ const T = {
     undo: 'Undo',
     deleteMed: '✕ Delete',
     noMeds: 'No medicines added yet',
-
-    // Health Tips
     tipsTitle: 'Daily Health Tips 📰',
     tipsDesc: 'A new tip to brighten your day',
     nextTip: '▶ Next Tip',
-
-    // Memory
     memoryTitle: 'Memory Helper 🧠',
     memoryDesc: 'Checklist for daily safety',
     memoryProgress: 'Tasks completed:',
     resetMemory: 'Reset All',
-
-    // Routine
     routineTitle: 'Daily Routine ⏰',
     routineDesc: 'Keep your day on track',
     markDone: 'Done ✓',
     doneLabel: '✓ Done',
     resetRoutine: 'Reset Day',
-
-    // Alerts
     alertsTitle: 'Missed Reminder Alerts 🔔',
     alertsDesc: 'Reminders you may have missed',
     noAlerts: 'All clear! No missed reminders.',
     dismissAll: 'Dismiss All',
-
-    // Cyber
     cyberTitle: 'Cyber Safety 🛡️',
     cyberDesc: 'Stay safe from online fraud & scams',
-
-    // Footer
     builtBy: 'Built by - Kanak Bari Team',
     enquiry: 'For any enquiry, click here to send your questions via email',
     email: 'barikanak19@gmail.com',
@@ -98,7 +80,6 @@ const T = {
     darkMode: '🌙 डार्क',
     lightMode: '☀️ लाइट',
     changeLanguage: '🌐 भाषा',
-
     water: 'पानी',
     medicine: 'दवाई',
     healthTips: 'स्वास्थ्य',
@@ -107,7 +88,6 @@ const T = {
     alerts: 'अलर्ट',
     cyber: 'सुरक्षा',
     feedback: 'फीडबैक',
-
     waterTitle: 'पानी रिमाइंडर 💧',
     waterDesc: 'दिन भर हाइड्रेटेड रहें',
     waterOn: 'रिमाइंडर चालू है',
@@ -120,7 +100,6 @@ const T = {
     waterCount: 'आज पिए गिलास:',
     drinkNow: '+ एक गिलास पिएं',
     resetWater: 'रीसेट करें',
-
     medicineTitle: 'दवाई रिमाइंडर 💊',
     medicineDesc: 'अपनी दवाइयाँ कभी न भूलें',
     addMedicine: 'दवाई जोड़ें',
@@ -135,30 +114,24 @@ const T = {
     undo: 'वापस',
     deleteMed: '✕ हटाएं',
     noMeds: 'कोई दवाई नहीं जोड़ी गई',
-
     tipsTitle: 'दैनिक स्वास्थ्य सुझाव 📰',
     tipsDesc: 'आपके दिन को बेहतर बनाने के लिए एक सुझाव',
     nextTip: '▶ अगला सुझाव',
-
     memoryTitle: 'याददाश्त सहायक 🧠',
     memoryDesc: 'दैनिक सुरक्षा चेकलिस्ट',
     memoryProgress: 'पूरे हुए कार्य:',
     resetMemory: 'सब रीसेट करें',
-
     routineTitle: 'दैनिक दिनचर्या ⏰',
     routineDesc: 'अपना दिन व्यवस्थित रखें',
     markDone: 'हो गया ✓',
     doneLabel: '✓ हो गया',
     resetRoutine: 'दिन रीसेट करें',
-
     alertsTitle: 'छूटे रिमाइंडर अलर्ट 🔔',
     alertsDesc: 'जो रिमाइंडर छूट गए हों',
     noAlerts: 'सब ठीक! कोई छूटा रिमाइंडर नहीं।',
     dismissAll: 'सब हटाएं',
-
     cyberTitle: 'साइबर सुरक्षा 🛡️',
     cyberDesc: 'ऑनलाइन धोखाधड़ी से सुरक्षित रहें',
-
     builtBy: 'कनक बारी टीम द्वारा निर्मित',
     enquiry: 'किसी भी पूछताछ के लिए, ईमेल द्वारा अपने प्रश्न भेजें',
     email: 'barikanak19@gmail.com',
@@ -173,7 +146,6 @@ const T = {
     darkMode: '🌙 डार्क',
     lightMode: '☀️ लाइट',
     changeLanguage: '🌐 भाषा',
-
     water: 'पाणी',
     medicine: 'औषध',
     healthTips: 'आरोग्य',
@@ -182,7 +154,6 @@ const T = {
     alerts: 'सूचना',
     cyber: 'सुरक्षा',
     feedback: 'अभिप्राय',
-
     waterTitle: 'पाणी स्मरणपत्र 💧',
     waterDesc: 'दिवसभर हायड्रेटेड राहा',
     waterOn: 'स्मरणपत्र सुरू आहे',
@@ -195,7 +166,6 @@ const T = {
     waterCount: 'आज प्यालेले ग्लास:',
     drinkNow: '+ एक ग्लास प्या',
     resetWater: 'रीसेट करा',
-
     medicineTitle: 'औषध स्मरणपत्र 💊',
     medicineDesc: 'तुमची औषधे कधीही विसरू नका',
     addMedicine: 'औषध जोडा',
@@ -210,30 +180,24 @@ const T = {
     undo: 'परत करा',
     deleteMed: '✕ हटवा',
     noMeds: 'कोणतेही औषध जोडले नाही',
-
     tipsTitle: 'दैनिक आरोग्य टिप्स 📰',
     tipsDesc: 'तुमचा दिवस उजळवण्यासाठी एक टिप',
     nextTip: '▶ पुढील टिप',
-
     memoryTitle: 'स्मृती सहाय्यक 🧠',
     memoryDesc: 'दैनंदिन सुरक्षा चेकलिस्ट',
     memoryProgress: 'पूर्ण झालेली कामे:',
     resetMemory: 'सर्व रीसेट करा',
-
     routineTitle: 'दैनंदिन दिनक्रम ⏰',
     routineDesc: 'तुमचा दिवस व्यवस्थित ठेवा',
     markDone: 'झाले ✓',
     doneLabel: '✓ झाले',
     resetRoutine: 'दिवस रीसेट करा',
-
     alertsTitle: 'चुकलेल्या स्मरणपत्राच्या सूचना 🔔',
     alertsDesc: 'जी स्मरणपत्रे चुकली असतील',
     noAlerts: 'सर्व ठीक! कोणतेही चुकलेले स्मरणपत्र नाही.',
     dismissAll: 'सर्व काढा',
-
     cyberTitle: 'सायबर सुरक्षा 🛡️',
     cyberDesc: 'ऑनलाइन फसवणुकीपासून सुरक्षित राहा',
-
     builtBy: 'कनक बारी टीमने बनवले',
     enquiry: 'कोणत्याही चौकशीसाठी, ईमेलद्वारे तुमचे प्रश्न पाठवा',
     email: 'barikanak19@gmail.com',
@@ -311,61 +275,61 @@ const HEALTH_TIPS = [
 // DATA — MEMORY ITEMS
 // ============================================================
 const MEMORY_ITEMS_DEFAULT = [
-  { id: 1, text: 'Lock the door',       hiText: 'दरवाज़ा बंद करें',          mrText: 'दरवाजा बंद करा',          emoji: '🚪', checked: false },
-  { id: 2, text: 'Turn off the gas',    hiText: 'गैस बंद करें',              mrText: 'गॅस बंद करा',             emoji: '🔥', checked: false },
-  { id: 3, text: 'Turn off the lights', hiText: 'बत्ती बंद करें',            mrText: 'दिवे बंद करा',            emoji: '💡', checked: false },
-  { id: 4, text: 'Close all windows',   hiText: 'खिड़कियाँ बंद करें',        mrText: 'सर्व खिडक्या बंद करा',   emoji: '🪟', checked: false },
-  { id: 5, text: 'Take medicine',       hiText: 'दवाई लें',                  mrText: 'औषध घ्या',                emoji: '💊', checked: false },
-  { id: 6, text: 'Drink water',         hiText: 'पानी पिएं',                 mrText: 'पाणी प्या',               emoji: '💧', checked: false },
-  { id: 7, text: 'Carry keys',          hiText: 'चाबियाँ लें',              mrText: 'चाव्या घ्या',             emoji: '🗝️', checked: false },
-  { id: 8, text: 'Check wallet / phone',hiText: 'बटुआ / फोन चेक करें',      mrText: 'पाकीट / फोन तपासा',      emoji: '📱', checked: false },
+  { id: 1, text: 'Lock the door',        hiText: 'दरवाज़ा बंद करें',         mrText: 'दरवाजा बंद करा',         emoji: '🚪', checked: false },
+  { id: 2, text: 'Turn off the gas',     hiText: 'गैस बंद करें',             mrText: 'गॅस बंद करा',            emoji: '🔥', checked: false },
+  { id: 3, text: 'Turn off the lights',  hiText: 'बत्ती बंद करें',           mrText: 'दिवे बंद करा',           emoji: '💡', checked: false },
+  { id: 4, text: 'Close all windows',    hiText: 'खिड़कियाँ बंद करें',       mrText: 'सर्व खिडक्या बंद करा',  emoji: '🪟', checked: false },
+  { id: 5, text: 'Take medicine',        hiText: 'दवाई लें',                 mrText: 'औषध घ्या',               emoji: '💊', checked: false },
+  { id: 6, text: 'Drink water',          hiText: 'पानी पिएं',                mrText: 'पाणी प्या',              emoji: '💧', checked: false },
+  { id: 7, text: 'Carry keys',           hiText: 'चाबियाँ लें',             mrText: 'चाव्या घ्या',            emoji: '🗝️', checked: false },
+  { id: 8, text: 'Check wallet / phone', hiText: 'बटुआ / फोन चेक करें',     mrText: 'पाकीट / फोन तपासा',     emoji: '📱', checked: false },
 ];
 
 // ============================================================
 // DATA — DAILY ROUTINE
 // ============================================================
 const ROUTINE_ITEMS_DEFAULT = [
-  { id: 1,  emoji: '🌅', label: 'Morning Walk',       hiLabel: 'सुबह की सैर',          mrLabel: 'सकाळची चाल',            time: '6:00 AM',  done: false },
-  { id: 2,  emoji: '🍳', label: 'Breakfast',           hiLabel: 'नाश्ता',               mrLabel: 'नाश्ता',                 time: '8:00 AM',  done: false },
-  { id: 3,  emoji: '💊', label: 'Morning Medicine',    hiLabel: 'सुबह की दवाई',         mrLabel: 'सकाळची औषधे',           time: '9:00 AM',  done: false },
-  { id: 4,  emoji: '☀️', label: 'Sunlight / Yoga',     hiLabel: 'धूप / योग',            mrLabel: 'उन्ह / योग',            time: '10:00 AM', done: false },
-  { id: 5,  emoji: '🍱', label: 'Lunch',               hiLabel: 'दोपहर का खाना',        mrLabel: 'दुपारचे जेवण',          time: '1:00 PM',  done: false },
-  { id: 6,  emoji: '😴', label: 'Afternoon Rest',      hiLabel: 'दोपहर का आराम',        mrLabel: 'दुपारची विश्रांती',     time: '2:30 PM',  done: false },
-  { id: 7,  emoji: '🚶', label: 'Evening Walk',        hiLabel: 'शाम की सैर',           mrLabel: 'संध्याकाळची चाल',       time: '5:00 PM',  done: false },
-  { id: 8,  emoji: '🍵', label: 'Evening Tea / Snack', hiLabel: 'शाम की चाय',           mrLabel: 'संध्याकाळचा चहा',       time: '5:30 PM',  done: false },
-  { id: 9,  emoji: '🌙', label: 'Dinner',              hiLabel: 'रात का खाना',          mrLabel: 'रात्रीचे जेवण',         time: '8:00 PM',  done: false },
-  { id: 10, emoji: '🛏️', label: 'Sleep',               hiLabel: 'सोने का समय',          mrLabel: 'झोपण्याची वेळ',         time: '10:00 PM', done: false },
+  { id: 1,  emoji: '🌅', label: 'Morning Walk',        hiLabel: 'सुबह की सैर',          mrLabel: 'सकाळची चाल',           time: '6:00 AM',  done: false },
+  { id: 2,  emoji: '🍳', label: 'Breakfast',            hiLabel: 'नाश्ता',               mrLabel: 'नाश्ता',                time: '8:00 AM',  done: false },
+  { id: 3,  emoji: '💊', label: 'Morning Medicine',     hiLabel: 'सुबह की दवाई',         mrLabel: 'सकाळची औषधे',          time: '9:00 AM',  done: false },
+  { id: 4,  emoji: '☀️', label: 'Sunlight / Yoga',      hiLabel: 'धूप / योग',            mrLabel: 'उन्ह / योग',           time: '10:00 AM', done: false },
+  { id: 5,  emoji: '🍱', label: 'Lunch',                hiLabel: 'दोपहर का खाना',        mrLabel: 'दुपारचे जेवण',         time: '1:00 PM',  done: false },
+  { id: 6,  emoji: '😴', label: 'Afternoon Rest',       hiLabel: 'दोपहर का आराम',        mrLabel: 'दुपारची विश्रांती',    time: '2:30 PM',  done: false },
+  { id: 7,  emoji: '🚶', label: 'Evening Walk',         hiLabel: 'शाम की सैर',           mrLabel: 'संध्याकाळची चाल',      time: '5:00 PM',  done: false },
+  { id: 8,  emoji: '🍵', label: 'Evening Tea / Snack',  hiLabel: 'शाम की चाय',           mrLabel: 'संध्याकाळचा चहा',      time: '5:30 PM',  done: false },
+  { id: 9,  emoji: '🌙', label: 'Dinner',               hiLabel: 'रात का खाना',          mrLabel: 'रात्रीचे जेवण',        time: '8:00 PM',  done: false },
+  { id: 10, emoji: '🛏️', label: 'Sleep',                hiLabel: 'सोने का समय',          mrLabel: 'झोपण्याची वेळ',        time: '10:00 PM', done: false },
 ];
 
 // ============================================================
 // DATA — CYBER TIPS (25 tips)
 // ============================================================
 const CYBER_TIPS = [
-  { icon: '🔐', rule: 'Never share your OTP',                           detail: 'No bank, government office or company will ever ask for your OTP. Hang up immediately if someone asks.',                        color: 'red',    hiRule: 'कभी OTP शेयर न करें',                          mrRule: 'कधीही OTP शेअर करू नका' },
-  { icon: '📵', rule: 'Avoid unknown calls',                            detail: 'Do not trust calls claiming to be from banks, government or police asking for personal info.',                                   color: 'blue',   hiRule: 'अज्ञात कॉल से सावधान रहें',                    mrRule: 'अज्ञात कॉलपासून सावध राहा' },
-  { icon: '🏦', rule: 'Never share bank details',                       detail: 'Do not share your account number, PIN, CVV, or password with anyone — not even your family.',                                   color: 'purple', hiRule: 'बैंक विवरण कभी न शेयर करें',                   mrRule: 'बँक तपशील कधीही शेअर करू नका' },
-  { icon: '🔗', rule: 'Do not click unknown links',                     detail: 'Suspicious links in SMS or WhatsApp can steal your data. Always verify before clicking.',                                        color: 'orange', hiRule: 'अज्ञात लिंक पर क्लिक न करें',                 mrRule: 'अज्ञात लिंकवर क्लिक करू नका' },
-  { icon: '💸', rule: 'Beware of "free prize" scams',                   detail: 'If someone says you won a lottery or prize, it is almost certainly a fraud. Do not pay any "processing fee."',                  color: 'red',    hiRule: '"मुफ्त इनाम" घोटालों से सावधान रहें',          mrRule: '"मोफत बक्षीस" घोटाळ्यांपासून सावध राहा' },
-  { icon: '🛡️', rule: 'Use strong passwords',                           detail: 'Use a unique password for each app or website. Do not use birthdays or simple number sequences.',                               color: 'green',  hiRule: 'मजबूत पासवर्ड का उपयोग करें',                  mrRule: 'मजबूत पासवर्ड वापरा' },
-  { icon: '📲', rule: 'Do not install unknown apps',                    detail: 'Never install an app on your phone if an unknown caller or message asks you to do so.',                                          color: 'orange', hiRule: 'अज्ञात ऐप्स इंस्टॉल न करें',                  mrRule: 'अज्ञात अॅप्स इन्स्टॉल करू नका' },
-  { icon: '📷', rule: 'Never scan unknown QR codes',                    detail: 'Scanning a QR code sent by a stranger can result in money being withdrawn from your account instantly.',                        color: 'red',    hiRule: 'अज्ञात QR कोड कभी स्कैन न करें',              mrRule: 'अज्ञात QR कोड कधीही स्कॅन करू नका' },
-  { icon: '🌐', rule: 'Avoid public Wi-Fi for banking',                 detail: 'Never do banking or payments on public Wi-Fi at malls, hotels or railway stations — it is not safe.',                          color: 'purple', hiRule: 'बैंकिंग के लिए सार्वजनिक Wi-Fi से बचें',      mrRule: 'बँकिंगसाठी सार्वजनिक Wi-Fi टाळा' },
-  { icon: '🏧', rule: 'Be careful at ATMs',                             detail: 'Do not let strangers help you at ATMs. Cover the keypad while entering your PIN. Check for hidden cameras.',                   color: 'blue',   hiRule: 'ATM पर सावधान रहें',                            mrRule: 'ATM वर सावध राहा' },
-  { icon: '📞', rule: 'Verify before you trust',                        detail: 'If someone claims to be from a government office or bank, hang up and call back on the official number yourself.',             color: 'green',  hiRule: 'भरोसा करने से पहले सत्यापित करें',             mrRule: 'विश्वास ठेवण्यापूर्वी सत्यापित करा' },
-  { icon: '💬', rule: 'Do not forward unverified messages',             detail: 'Do not forward WhatsApp messages about fake offers, government schemes or health cures without checking.',                     color: 'orange', hiRule: 'बिना जाँचे संदेश फॉरवर्ड न करें',              mrRule: 'न तपासता संदेश फॉरवर्ड करू नका' },
-  { icon: '🔒', rule: 'Lock your phone always',                         detail: 'Always keep your phone locked with a PIN, pattern or fingerprint to protect your personal information.',                       color: 'blue',   hiRule: 'फोन हमेशा लॉक रखें',                           mrRule: 'फोन नेहमी लॉक ठेवा' },
-  { icon: '📋', rule: 'Check bank statements regularly',                detail: 'Review your bank passbook or app every week for unknown transactions. Report any suspicious entry immediately.',               color: 'green',  hiRule: 'बैंक स्टेटमेंट नियमित जाँचें',                 mrRule: 'बँक स्टेटमेंट नियमित तपासा' },
-  { icon: '🚫', rule: 'Never give your phone to strangers',             detail: 'Do not hand your phone to an unknown person to make a call — they may install spy apps or steal your data.',                  color: 'red',    hiRule: 'अजनबियों को फोन न दें',                         mrRule: 'अनोळखी व्यक्तींना फोन देऊ नका' },
-  { icon: '📧', rule: 'Ignore suspicious emails',                       detail: 'Do not open emails from unknown senders asking for passwords, bank info or personal documents.',                               color: 'purple', hiRule: 'संदिग्ध ईमेल को अनदेखा करें',                  mrRule: 'संशयास्पद ईमेल दुर्लक्षित करा' },
-  { icon: '🌍', rule: 'Do not call back unknown international numbers', detail: 'If you receive a missed call from an unknown international number, do not call it back — it may be a scam.',                  color: 'orange', hiRule: 'अज्ञात अंतर्राष्ट्रीय नंबर वापस न करें',       mrRule: 'अज्ञात आंतरराष्ट्रीय नंबरवर परत कॉल करू नका' },
-  { icon: '🧾', rule: 'Set transaction limits on your account',         detail: 'Ask your bank to set daily transaction limits on your account to reduce risk in case of fraud.',                              color: 'green',  hiRule: 'खाते पर लेनदेन सीमा निर्धारित करें',           mrRule: 'खात्यावर व्यवहार मर्यादा सेट करा' },
-  { icon: '🤝', rule: 'Consult family before big payments',             detail: 'Always talk to a trusted family member before making any large payment or financial decision online.',                         color: 'blue',   hiRule: 'बड़े भुगतान से पहले परिवार से सलाह लें',        mrRule: 'मोठे पेमेंट करण्यापूर्वी कुटुंबाशी सल्लामसलत करा' },
-  { icon: '🆘', rule: 'Report cyber fraud immediately',                 detail: 'If you are cheated online, call the National Cyber Crime Helpline at 1930 without any delay.',                                color: 'red',    hiRule: 'साइबर धोखाधड़ी तुरंत रिपोर्ट करें',            mrRule: 'सायबर फसवणूक त्वरित नोंदवा' },
-  { icon: '🧠', rule: 'Beware of emotional manipulation',               detail: 'Scammers create urgency or fear to confuse you. Stay calm and never make rushed decisions over the phone.',                   color: 'purple', hiRule: 'भावनात्मक हेरफेर से सावधान रहें',               mrRule: 'भावनिक फसवणुकीपासून सावध राहा' },
-  { icon: '💳', rule: 'Use UPI and cards carefully',                    detail: 'Never enter your UPI PIN to receive money — PIN is only needed when you send money, not receive it.',                         color: 'orange', hiRule: 'UPI और कार्ड सावधानी से उपयोग करें',           mrRule: 'UPI आणि कार्ड सावधानीने वापरा' },
-  { icon: '🖥️', rule: 'Use only official banking websites',             detail: "Always type your bank's website address yourself in the browser. Do not rely on links from search engines or messages.",     color: 'green',  hiRule: 'केवल आधिकारिक बैंकिंग वेबसाइट का उपयोग करें', mrRule: 'फक्त अधिकृत बँकिंग वेबसाइट वापरा' },
-  { icon: '🔕', rule: 'Block and report spam calls',                    detail: "Use your phone's built-in feature or apps like Truecaller to identify and block suspicious spam callers.",                   color: 'blue',   hiRule: 'स्पैम कॉल को ब्लॉक और रिपोर्ट करें',           mrRule: 'स्पॅम कॉल ब्लॉक करा आणि रिपोर्ट करा' },
-  { icon: '👨‍👩‍👧', rule: 'Stay educated about new scams',              detail: 'Ask your children or grandchildren to regularly update you about new types of online frauds happening around.',             color: 'green',  hiRule: 'नए घोटालों के बारे में जागरूक रहें',            mrRule: 'नवीन घोटाळ्यांबद्दल जागरूक राहा' },
+  { icon: '🔐', rule: 'Never share your OTP',                           detail: 'No bank, government office or company will ever ask for your OTP. Hang up immediately if someone asks.',                   color: 'red',    hiRule: 'कभी OTP शेयर न करें',                           mrRule: 'कधीही OTP शेअर करू नका' },
+  { icon: '📵', rule: 'Avoid unknown calls',                            detail: 'Do not trust calls claiming to be from banks, government or police asking for personal info.',                              color: 'blue',   hiRule: 'अज्ञात कॉल से सावधान रहें',                     mrRule: 'अज्ञात कॉलपासून सावध राहा' },
+  { icon: '🏦', rule: 'Never share bank details',                       detail: 'Do not share your account number, PIN, CVV, or password with anyone — not even your family.',                              color: 'purple', hiRule: 'बैंक विवरण कभी न शेयर करें',                    mrRule: 'बँक तपशील कधीही शेअर करू नका' },
+  { icon: '🔗', rule: 'Do not click unknown links',                     detail: 'Suspicious links in SMS or WhatsApp can steal your data. Always verify before clicking.',                                   color: 'orange', hiRule: 'अज्ञात लिंक पर क्लिक न करें',                  mrRule: 'अज्ञात लिंकवर क्लिक करू नका' },
+  { icon: '💸', rule: 'Beware of "free prize" scams',                   detail: 'If someone says you won a lottery or prize, it is almost certainly a fraud. Do not pay any "processing fee."',             color: 'red',    hiRule: '"मुफ्त इनाम" घोटालों से सावधान रहें',           mrRule: '"मोफत बक्षीस" घोटाळ्यांपासून सावध राहा' },
+  { icon: '🛡️', rule: 'Use strong passwords',                           detail: 'Use a unique password for each app or website. Do not use birthdays or simple number sequences.',                          color: 'green',  hiRule: 'मजबूत पासवर्ड का उपयोग करें',                   mrRule: 'मजबूत पासवर्ड वापरा' },
+  { icon: '📲', rule: 'Do not install unknown apps',                    detail: 'Never install an app on your phone if an unknown caller or message asks you to do so.',                                     color: 'orange', hiRule: 'अज्ञात ऐप्स इंस्टॉल न करें',                   mrRule: 'अज्ञात अॅप्स इन्स्टॉल करू नका' },
+  { icon: '📷', rule: 'Never scan unknown QR codes',                    detail: 'Scanning a QR code sent by a stranger can result in money being withdrawn from your account instantly.',                   color: 'red',    hiRule: 'अज्ञात QR कोड कभी स्कैन न करें',               mrRule: 'अज्ञात QR कोड कधीही स्कॅन करू नका' },
+  { icon: '🌐', rule: 'Avoid public Wi-Fi for banking',                 detail: 'Never do banking or payments on public Wi-Fi at malls, hotels or railway stations — it is not safe.',                     color: 'purple', hiRule: 'बैंकिंग के लिए सार्वजनिक Wi-Fi से बचें',       mrRule: 'बँकिंगसाठी सार्वजनिक Wi-Fi टाळा' },
+  { icon: '🏧', rule: 'Be careful at ATMs',                             detail: 'Do not let strangers help you at ATMs. Cover the keypad while entering your PIN. Check for hidden cameras.',              color: 'blue',   hiRule: 'ATM पर सावधान रहें',                             mrRule: 'ATM वर सावध राहा' },
+  { icon: '📞', rule: 'Verify before you trust',                        detail: 'If someone claims to be from a government office or bank, hang up and call back on the official number yourself.',        color: 'green',  hiRule: 'भरोसा करने से पहले सत्यापित करें',              mrRule: 'विश्वास ठेवण्यापूर्वी सत्यापित करा' },
+  { icon: '💬', rule: 'Do not forward unverified messages',             detail: 'Do not forward WhatsApp messages about fake offers, government schemes or health cures without checking.',                color: 'orange', hiRule: 'बिना जाँचे संदेश फॉरवर्ड न करें',               mrRule: 'न तपासता संदेश फॉरवर्ड करू नका' },
+  { icon: '🔒', rule: 'Lock your phone always',                         detail: 'Always keep your phone locked with a PIN, pattern or fingerprint to protect your personal information.',                  color: 'blue',   hiRule: 'फोन हमेशा लॉक रखें',                            mrRule: 'फोन नेहमी लॉक ठेवा' },
+  { icon: '📋', rule: 'Check bank statements regularly',                detail: 'Review your bank passbook or app every week for unknown transactions. Report any suspicious entry immediately.',          color: 'green',  hiRule: 'बैंक स्टेटमेंट नियमित जाँचें',                  mrRule: 'बँक स्टेटमेंट नियमित तपासा' },
+  { icon: '🚫', rule: 'Never give your phone to strangers',             detail: 'Do not hand your phone to an unknown person to make a call — they may install spy apps or steal your data.',             color: 'red',    hiRule: 'अजनबियों को फोन न दें',                          mrRule: 'अनोळखी व्यक्तींना फोन देऊ नका' },
+  { icon: '📧', rule: 'Ignore suspicious emails',                       detail: 'Do not open emails from unknown senders asking for passwords, bank info or personal documents.',                          color: 'purple', hiRule: 'संदिग्ध ईमेल को अनदेखा करें',                   mrRule: 'संशयास्पद ईमेल दुर्लक्षित करा' },
+  { icon: '🌍', rule: 'Do not call back unknown international numbers', detail: 'If you receive a missed call from an unknown international number, do not call it back — it may be a scam.',             color: 'orange', hiRule: 'अज्ञात अंतर्राष्ट्रीय नंबर वापस न करें',        mrRule: 'अज्ञात आंतरराष्ट्रीय नंबरवर परत कॉल करू नका' },
+  { icon: '🧾', rule: 'Set transaction limits on your account',         detail: 'Ask your bank to set daily transaction limits on your account to reduce risk in case of fraud.',                         color: 'green',  hiRule: 'खाते पर लेनदेन सीमा निर्धारित करें',            mrRule: 'खात्यावर व्यवहार मर्यादा सेट करा' },
+  { icon: '🤝', rule: 'Consult family before big payments',             detail: 'Always talk to a trusted family member before making any large payment or financial decision online.',                    color: 'blue',   hiRule: 'बड़े भुगतान से पहले परिवार से सलाह लें',         mrRule: 'मोठे पेमेंट करण्यापूर्वी कुटुंबाशी सल्लामसलत करा' },
+  { icon: '🆘', rule: 'Report cyber fraud immediately',                 detail: 'If you are cheated online, call the National Cyber Crime Helpline at 1930 without any delay.',                           color: 'red',    hiRule: 'साइबर धोखाधड़ी तुरंत रिपोर्ट करें',             mrRule: 'सायबर फसवणूक त्वरित नोंदवा' },
+  { icon: '🧠', rule: 'Beware of emotional manipulation',               detail: 'Scammers create urgency or fear to confuse you. Stay calm and never make rushed decisions over the phone.',              color: 'purple', hiRule: 'भावनात्मक हेरफेर से सावधान रहें',                mrRule: 'भावनिक फसवणुकीपासून सावध राहा' },
+  { icon: '💳', rule: 'Use UPI and cards carefully',                    detail: 'Never enter your UPI PIN to receive money — PIN is only needed when you send money, not receive it.',                    color: 'orange', hiRule: 'UPI और कार्ड सावधानी से उपयोग करें',            mrRule: 'UPI आणि कार्ड सावधानीने वापरा' },
+  { icon: '🖥️', rule: 'Use only official banking websites',             detail: "Always type your bank's website address yourself in the browser. Do not rely on links from search engines or messages.", color: 'green',  hiRule: 'केवल आधिकारिक बैंकिंग वेबसाइट का उपयोग करें',  mrRule: 'फक्त अधिकृत बँकिंग वेबसाइट वापरा' },
+  { icon: '🔕', rule: 'Block and report spam calls',                    detail: "Use your phone's built-in feature or apps like Truecaller to identify and block suspicious spam callers.",              color: 'blue',   hiRule: 'स्पैम कॉल को ब्लॉक और रिपोर्ट करें',            mrRule: 'स्पॅम कॉल ब्लॉक करा आणि रिपोर्ट करा' },
+  { icon: '👨‍👩‍👧', rule: 'Stay educated about new scams',                detail: 'Ask your children or grandchildren to regularly update you about new types of online frauds happening around.',        color: 'green',  hiRule: 'नए घोटालों के बारे में जागरूक रहें',             mrRule: 'नवीन घोटाळ्यांबद्दल जागरूक राहा' },
 ];
 
 // ============================================================
@@ -391,7 +355,7 @@ function useLocalStorage(key, initialValue) {
 }
 
 // ============================================================
-// TOAST COMPONENT
+// TOAST
 // ============================================================
 function Toast({ toasts }) {
   return (
@@ -419,7 +383,7 @@ function LanguageScreen({ onSelect }) {
   const langs = [
     { code: 'en', name: 'English', native: 'English', flag: '🇬🇧' },
     { code: 'hi', name: 'Hindi',   native: 'हिन्दी',  flag: '🇮🇳' },
-    { code: 'mr', name: 'Marathi', native: 'मराठी',   flag: '🟠' },
+    { code: 'mr', name: 'Marathi', native: 'मराठी',   flag: '🟠'  },
   ];
 
   return (
@@ -479,7 +443,6 @@ function WaterReminder({ t, addAlert, showToast }) {
           <p className="section-desc">{t.waterDesc}</p>
         </div>
       </div>
-
       <div className="toggle-row">
         <div>
           <div className="toggle-label">{on ? t.waterOn : t.waterOff}</div>
@@ -494,16 +457,15 @@ function WaterReminder({ t, addAlert, showToast }) {
           <span className="toggle-slider" />
         </label>
       </div>
-
       <div className="interval-select-row">
         {intervals.map(i => (
-          <button key={i.mins} className={`interval-chip${interval === i.mins ? ' selected' : ''}`}
+          <button key={i.mins}
+            className={`interval-chip${interval === i.mins ? ' selected' : ''}`}
             onClick={() => setIntervalMins(i.mins)}>
             {i.label}
           </button>
         ))}
       </div>
-
       <div className="water-status" style={{ marginTop: 18 }}>
         <span className="water-icon-big">💧</span>
         <div className="water-info">
@@ -518,7 +480,6 @@ function WaterReminder({ t, addAlert, showToast }) {
           </div>
         </div>
       </div>
-
       <div style={{ display: 'flex', gap: 12, marginTop: 6, flexWrap: 'wrap' }}>
         <button className="btn btn-primary" onClick={() => {
           setGlasses(g => Math.min(g + 1, 20));
@@ -577,7 +538,6 @@ function MedicineReminder({ t, addAlert, showToast }) {
           <p className="section-desc">{t.medicineDesc}</p>
         </div>
       </div>
-
       <div className="medicine-add-form">
         <h3 style={{ fontSize: 17, fontWeight: 800, color: 'var(--text-secondary)', marginBottom: 14 }}>{t.addMedicine}</h3>
         <div className="form-row">
@@ -600,7 +560,6 @@ function MedicineReminder({ t, addAlert, showToast }) {
         </div>
         <button className="btn btn-primary" onClick={addMed}>{t.addBtn}</button>
       </div>
-
       <div className="medicine-list">
         {medicines.length === 0 ? (
           <div className="empty-state">
@@ -654,12 +613,10 @@ function HealthTips({ t }) {
           <p className="section-desc">{t.tipsDesc}</p>
         </div>
       </div>
-
       <div className="tip-card" style={{ opacity: animate ? 0 : 1, transition: 'opacity 0.25s' }}>
         <div className="tip-icon">💡</div>
         <p className="tip-text">{currentTip}</p>
       </div>
-
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 18, flexWrap: 'wrap' }}>
         <button className="btn btn-primary" onClick={nextTip}>{t.nextTip}</button>
         <span style={{ fontSize: 14, color: 'var(--text-muted)', fontWeight: 700 }}>
@@ -676,11 +633,8 @@ function HealthTips({ t }) {
 function MemoryHelper({ t, lang }) {
   const [items, setItems] = useLocalStorage('memory_items', MEMORY_ITEMS_DEFAULT);
 
-  const toggle = (id) => {
-    setItems(prev => prev.map(it => it.id === id ? { ...it, checked: !it.checked } : it));
-  };
-
-  const reset = () => setItems(MEMORY_ITEMS_DEFAULT);
+  const toggle = (id) => setItems(prev => prev.map(it => it.id === id ? { ...it, checked: !it.checked } : it));
+  const reset  = () => setItems(MEMORY_ITEMS_DEFAULT);
 
   const checkedCount = items.filter(i => i.checked).length;
   const pct          = Math.round((checkedCount / items.length) * 100);
@@ -700,7 +654,6 @@ function MemoryHelper({ t, lang }) {
           <p className="section-desc">{t.memoryDesc}</p>
         </div>
       </div>
-
       <div className="memory-grid">
         {items.map(it => (
           <div key={it.id} className={`memory-item${it.checked ? ' checked' : ''}`} onClick={() => toggle(it.id)}>
@@ -710,7 +663,6 @@ function MemoryHelper({ t, lang }) {
           </div>
         ))}
       </div>
-
       <div className="memory-progress">
         <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--text-secondary)', whiteSpace: 'nowrap' }}>
           {t.memoryProgress}
@@ -720,7 +672,6 @@ function MemoryHelper({ t, lang }) {
         </div>
         <span className="progress-text">{checkedCount}/{items.length}</span>
       </div>
-
       <div style={{ marginTop: 16 }}>
         <button className="btn btn-outline btn-sm" onClick={reset}>{t.resetMemory}</button>
       </div>
@@ -734,11 +685,8 @@ function MemoryHelper({ t, lang }) {
 function DailyRoutine({ t, lang }) {
   const [items, setItems] = useLocalStorage('routine_items', ROUTINE_ITEMS_DEFAULT);
 
-  const toggle = (id) => {
-    setItems(prev => prev.map(it => it.id === id ? { ...it, done: !it.done } : it));
-  };
-
-  const reset = () => setItems(ROUTINE_ITEMS_DEFAULT);
+  const toggle = (id) => setItems(prev => prev.map(it => it.id === id ? { ...it, done: !it.done } : it));
+  const reset  = () => setItems(ROUTINE_ITEMS_DEFAULT);
 
   const getLabel = (it) => {
     if (lang === 'hi' && it.hiLabel) return it.hiLabel;
@@ -757,7 +705,6 @@ function DailyRoutine({ t, lang }) {
           <p className="section-desc">{t.routineDesc} · {doneCount}/{items.length} done</p>
         </div>
       </div>
-
       <div className="routine-list">
         {items.map(it => (
           <div key={it.id} className={`routine-item${it.done ? ' done' : ''}`}>
@@ -777,7 +724,6 @@ function DailyRoutine({ t, lang }) {
           </div>
         ))}
       </div>
-
       <div style={{ marginTop: 20 }}>
         <button className="btn btn-outline btn-sm" onClick={reset}>{t.resetRoutine}</button>
       </div>
@@ -795,15 +741,12 @@ function AlertsSection({ t, alerts, setAlerts }) {
   return (
     <section className="feature-section" id="alerts">
       <div className="section-header">
-        <span className="section-icon">
-          <span className="alert-bell">🔔</span>
-        </span>
+        <span className="section-icon"><span className="alert-bell">🔔</span></span>
         <div>
           <h2 className="section-title">{t.alertsTitle}</h2>
           <p className="section-desc">{t.alertsDesc}</p>
         </div>
       </div>
-
       {alerts.length === 0 ? (
         <div className="alert-empty">
           <div className="alert-empty-icon">✅</div>
@@ -851,7 +794,6 @@ function CyberSafety({ t, lang }) {
           <p className="section-desc">{t.cyberDesc}</p>
         </div>
       </div>
-
       <div className="cyber-grid">
         {CYBER_TIPS.map((tip, i) => (
           <div key={i} className={`cyber-card ${tip.color}`}>
@@ -866,25 +808,28 @@ function CyberSafety({ t, lang }) {
 }
 
 // ============================================================
-// FEEDBACK  ← UPGRADED: 8 fields
+// FEEDBACK — FIXED: form-based extraction, no no-cors
 // ============================================================
 function Feedback({ lang }) {
-  // ── State for all 8 fields ──────────────────────────────
-  const [name, setName]               = useState('');
-  const [ageGroup, setAgeGroup]       = useState('');
-  const [feedback, setFeedback]       = useState('');
-  const [rating, setRating]           = useState(0);
-  const [useful, setUseful]           = useState('');
-  const [bestFeature, setBestFeature] = useState('');
-  const [issue, setIssue]             = useState('');
-  const [suggestion, setSuggestion]   = useState('');
 
-  // ── UI state ────────────────────────────────────────────
-  const [loading, setLoading]         = useState(false);
-  const [submitted, setSubmitted]     = useState(false);
-  const [error, setError]             = useState('');
+  // ── Only state kept for custom UI controls (stars + yes/no buttons)
+  // because these are NOT standard HTML inputs and cannot use e.target
+  const [rating,      setRating]      = useState(0);
+  const [useful,      setUseful]      = useState('');
+  const [issue,       setIssue]       = useState('');
 
-  // ── Per-language label sets ──────────────────────────────
+  // ── Simple UI state ──────────────────────────────────────
+  const [loading,   setLoading]   = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [error,     setError]     = useState('');
+
+  // ── Reference to the <form> element so we can read + reset it
+  const formRef = useRef(null);
+
+  // ── Google Apps Script Web App URL ───────────────────────
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxQ1bu28Di9yQQIZo5MCxrb63wDrmSbP8dzS3HJtyWLLD4P2WIUInOtS6znY7qtD6Nw/exec';
+
+  // ── Per-language labels ───────────────────────────────────
   const labels = {
     en: {
       title:                'Feedback 💬',
@@ -911,7 +856,7 @@ function Feedback({ lang }) {
       successMsg: '🎉 Thank you for your feedback!',
       successSub: 'Your response has been recorded.',
       errorEmpty: 'Please fill in Name, Age Group, Feedback, Rating, and whether the app was Useful.',
-      errorFail:  'Something went wrong. Please try again.',
+      errorFail:  'Submission failed. Please check your internet connection and try again.',
       reset:      '✏️ Submit Another',
     },
     hi: {
@@ -939,7 +884,7 @@ function Feedback({ lang }) {
       successMsg: '🎉 आपके फीडबैक के लिए धन्यवाद!',
       successSub: 'आपका जवाब दर्ज कर लिया गया है।',
       errorEmpty: 'कृपया नाम, आयु समूह, फीडबैक, रेटिंग और उपयोगिता भरें।',
-      errorFail:  'कुछ गलत हुआ। कृपया पुनः प्रयास करें।',
+      errorFail:  'सबमिट नहीं हो सका। इंटरनेट जाँचें और पुनः प्रयास करें।',
       reset:      '✏️ एक और भेजें',
     },
     mr: {
@@ -967,20 +912,17 @@ function Feedback({ lang }) {
       successMsg: '🎉 तुमच्या अभिप्रायाबद्दल धन्यवाद!',
       successSub: 'तुमचा प्रतिसाद नोंदवला गेला आहे.',
       errorEmpty: 'कृपया नाव, वयोगट, अभिप्राय, रेटिंग आणि उपयुक्तता भरा.',
-      errorFail:  'काहीतरी चुकले. कृपया पुन्हा प्रयत्न करा.',
+      errorFail:  'सबमिट होऊ शकले नाही. इंटरनेट तपासा आणि पुन्हा प्रयत्न करा.',
       reset:      '✏️ आणखी एक पाठवा',
     },
   };
 
   const L = labels[lang] || labels.en;
 
-  // Google Apps Script Web App URL
-  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwkXtxX7b1fWm4iLQMdqEyqAzdzVSkelhpghftBFPB6VYkSF5smlWustTGlWUVExHZjRQ/exec';
-
-  // ── Shared base style for text inputs ───────────────────
+  // ── Shared input base style ───────────────────────────────
   const inputStyle = { fontSize: 16 };
 
-  // ── Star rating ──────────────────────────────────────────
+  // ── Star rating UI (needs state — not a standard input) ──
   const renderStars = () => (
     <div style={{ display: 'flex', gap: 6, marginTop: 6, alignItems: 'center' }}>
       {[1, 2, 3, 4, 5].map(star => (
@@ -1011,7 +953,7 @@ function Feedback({ lang }) {
     </div>
   );
 
-  // ── Yes / No buttons ─────────────────────────────────────
+  // ── Yes / No buttons (needs state — not a standard input) ─
   const renderYesNo = (value, setter) => (
     <div style={{ display: 'flex', gap: 10, marginTop: 6 }}>
       {['yes', 'no'].map(opt => (
@@ -1021,15 +963,15 @@ function Feedback({ lang }) {
           onClick={() => { setter(opt); setError(''); }}
           disabled={loading}
           style={{
-            padding:    '8px 28px',
+            padding:      '8px 28px',
             borderRadius: 8,
-            border:     `2px solid ${value === opt ? 'var(--primary, #3b82f6)' : 'var(--border, #ccc)'}`,
-            background: value === opt ? 'var(--primary, #3b82f6)' : 'var(--card-bg)',
-            color:      value === opt ? '#fff' : 'var(--text-primary)',
-            fontWeight: 700,
-            fontSize:   15,
-            cursor:     loading ? 'not-allowed' : 'pointer',
-            transition: 'all 0.15s',
+            border:       `2px solid ${value === opt ? 'var(--primary, #3b82f6)' : 'var(--border, #ccc)'}`,
+            background:   value === opt ? 'var(--primary, #3b82f6)' : 'var(--card-bg)',
+            color:        value === opt ? '#fff' : 'var(--text-primary)',
+            fontWeight:   700,
+            fontSize:     15,
+            cursor:       loading ? 'not-allowed' : 'pointer',
+            transition:   'all 0.15s',
           }}
         >
           {opt === 'yes' ? L.yes : L.no}
@@ -1038,54 +980,104 @@ function Feedback({ lang }) {
     </div>
   );
 
-  // ── Thin divider between fields ──────────────────────────
+  // ── Thin divider ─────────────────────────────────────────
   const Divider = () => (
     <div style={{ borderTop: '1px solid var(--border)', margin: '2px 0' }} />
   );
 
-  // ── Submit ───────────────────────────────────────────────
-  const handleSubmit = async () => {
+  // ══════════════════════════════════════════════════════════
+  // handleSubmit — reads ALL values from the form via e.target
+  // Rating, useful, issue come from React state (custom UI)
+  // All other fields come from named form inputs via e.target
+  // ══════════════════════════════════════════════════════════
+  const handleSubmit = async (e) => {
+    // Prevent the default browser form submission (page reload)
+    e.preventDefault();
+
     setError('');
 
-    // Required: name, ageGroup, feedback, rating, useful
-    if (!name.trim() || !ageGroup || !feedback.trim() || rating === 0 || !useful) {
+    // ── Step 1: Read text/select values directly from the form ──
+    // e.target is the <form> element.
+    // Each field has a "name" attribute, so we access them like:
+    // e.target.name.value, e.target.ageGroup.value, etc.
+    const name        = e.target.name.value.trim();
+    const ageGroup    = e.target.ageGroup.value;
+    const feedback    = e.target.feedback.value.trim();
+    const bestFeature = e.target.bestFeature.value;
+    const suggestion  = e.target.suggestion.value.trim();
+
+    // rating, useful, issue come from React state (they are custom button UIs)
+
+    // ── Step 2: Validate required fields ─────────────────────
+    if (!name || !ageGroup || !feedback || rating === 0 || !useful) {
       setError(L.errorEmpty);
       return;
     }
 
+    // ── Step 3: Build the data object to send ─────────────────
+    // This exact JSON will arrive in your Google Apps Script doPost()
+    const dataToSend = {
+      name:        name,
+      ageGroup:    ageGroup,
+      feedback:    feedback,
+      rating:      rating,        // number: 1–5
+      useful:      useful,        // 'yes' or 'no'
+      bestFeature: bestFeature,
+      issue:       issue,         // 'yes' or 'no'
+      suggestion:  suggestion,
+    };
+
     setLoading(true);
+
+    // ── Step 4: Send to Google Apps Script ────────────────────
+    // NOTE: No 'no-cors' here.
+    // Your Google Apps Script doPost() must return:
+    //   ContentService.createTextOutput(JSON.stringify({ status: 'success' }))
+    //     .setMimeType(ContentService.MimeType.JSON);
+    // AND the Web App must be deployed as:
+    //   "Execute as: Me" and "Who has access: Anyone"
     try {
-      await fetch(GOOGLE_SCRIPT_URL, {
+      const response = await fetch(GOOGLE_SCRIPT_URL, {
         method:  'POST',
-        mode:    'no-cors',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name:        name.trim(),
-          ageGroup:    ageGroup,
-          feedback:    feedback.trim(),
-          rating:      rating,
-          useful:      useful,
-          bestFeature: bestFeature,
-          issue:       issue,
-          suggestion:  suggestion.trim(),
-        }),
+        body:    JSON.stringify(dataToSend),
       });
-      // no-cors → cannot read response; treat as success
-      setSubmitted(true);
-      setName(''); setAgeGroup(''); setFeedback(''); setRating(0);
-      setUseful(''); setBestFeature(''); setIssue(''); setSuggestion('');
+
+      // If Google Apps Script returns a proper response, check it
+      if (response.ok) {
+        setSubmitted(true);
+        // Reset the HTML form fields
+        formRef.current.reset();
+        // Reset the custom state fields
+        setRating(0);
+        setUseful('');
+        setIssue('');
+      } else {
+        setError(L.errorFail);
+      }
     } catch (err) {
-      setError(L.errorFail);
+      // Network error or CORS error
+      // If you see a CORS error, ensure your Apps Script is deployed with
+      // "Execute as: Me" and "Who has access: Anyone"
+      setError(L.errorFail + ' (Network error: ' + err.message + ')');
     } finally {
       setLoading(false);
     }
   };
 
-  const handleReset = () => { setSubmitted(false); setError(''); };
+  // ── Reset to show the form again after success ────────────
+  const handleReset = () => {
+    setSubmitted(false);
+    setError('');
+    setRating(0);
+    setUseful('');
+    setIssue('');
+  };
 
-  // ── Render ───────────────────────────────────────────────
+  // ── Render ────────────────────────────────────────────────
   return (
     <section className="feature-section" id="feedback">
+
       {/* Section Header */}
       <div className="section-header">
         <span className="section-icon">💬</span>
@@ -1095,12 +1087,15 @@ function Feedback({ lang }) {
         </div>
       </div>
 
-      {/* ── Success ── */}
+      {/* ── Success screen ── */}
       {submitted ? (
         <div style={{
-          textAlign: 'center', padding: '32px 16px',
-          background: 'var(--card-bg)', borderRadius: 16,
-          border: '2px solid var(--border)', marginTop: 8,
+          textAlign:    'center',
+          padding:      '32px 16px',
+          background:   'var(--card-bg)',
+          borderRadius: 16,
+          border:       '2px solid var(--border)',
+          marginTop:    8,
         }}>
           <div style={{ fontSize: 52, marginBottom: 12 }}>✅</div>
           <div style={{ fontSize: 20, fontWeight: 800, color: 'var(--text-primary)', marginBottom: 6 }}>
@@ -1113,35 +1108,52 @@ function Feedback({ lang }) {
         </div>
 
       ) : (
-        /* ── Form ── */
-        <div style={{
-          background: 'var(--card-bg)', borderRadius: 16,
-          border: '2px solid var(--border)', padding: '24px 20px',
-          marginTop: 8, display: 'flex', flexDirection: 'column', gap: 20,
-        }}>
 
-          {/* 1. Name */}
+        // ══════════════════════════════════════════════════════
+        // THE FORM
+        // - ref={formRef}         → so we can call formRef.current.reset()
+        // - onSubmit={handleSubmit} → triggered by the submit button
+        // - Each input has name="..."  → so e.target.fieldName.value works
+        // ══════════════════════════════════════════════════════
+        <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          style={{
+            background:    'var(--card-bg)',
+            borderRadius:  16,
+            border:        '2px solid var(--border)',
+            padding:       '24px 20px',
+            marginTop:     8,
+            display:       'flex',
+            flexDirection: 'column',
+            gap:           20,
+          }}
+        >
+
+          {/* ── 1. Name ── */}
           <div className="form-group">
             <label className="form-label">{L.nameLabel}</label>
             <input
-              className="form-input" type="text"
+              className="form-input"
+              type="text"
+              name="name"
               placeholder={L.namePlaceholder}
-              value={name}
-              onChange={e => { setName(e.target.value); setError(''); }}
-              disabled={loading} style={inputStyle}
+              disabled={loading}
+              style={inputStyle}
             />
           </div>
 
           <Divider />
 
-          {/* 2. Age Group */}
+          {/* ── 2. Age Group ── */}
           <div className="form-group">
             <label className="form-label">{L.ageGroupLabel}</label>
             <select
-              className="form-select" value={ageGroup}
-              onChange={e => { setAgeGroup(e.target.value); setError(''); }}
+              className="form-select"
+              name="ageGroup"       
               disabled={loading}
-              style={{ ...inputStyle, color: ageGroup ? 'var(--text-primary)' : 'var(--text-muted)' }}
+              defaultValue=""
+              style={inputStyle}
             >
               <option value="">{L.ageGroupDefault}</option>
               <option value="50-55">{L.age1}</option>
@@ -1152,22 +1164,22 @@ function Feedback({ lang }) {
 
           <Divider />
 
-          {/* 3. Feedback */}
+          {/* ── 3. Feedback ── */}
           <div className="form-group">
             <label className="form-label">{L.feedbackLabel}</label>
             <textarea
               className="form-input"
+              name="feedback"         
               placeholder={L.feedbackPlaceholder}
-              value={feedback}
-              onChange={e => { setFeedback(e.target.value); setError(''); }}
-              disabled={loading} rows={4}
+              disabled={loading}
+              rows={4}
               style={{ ...inputStyle, resize: 'vertical', lineHeight: 1.6, minHeight: 100, fontFamily: 'inherit' }}
             />
           </div>
 
           <Divider />
 
-          {/* 4. Rating */}
+          {/* ── 4. Rating (custom star UI — uses React state) ── */}
           <div className="form-group">
             <label className="form-label">{L.ratingLabel}</label>
             {renderStars()}
@@ -1175,7 +1187,7 @@ function Feedback({ lang }) {
 
           <Divider />
 
-          {/* 5. Useful */}
+          {/* ── 5. Useful (custom yes/no UI — uses React state) ── */}
           <div className="form-group">
             <label className="form-label">{L.usefulLabel}</label>
             {renderYesNo(useful, setUseful)}
@@ -1183,14 +1195,15 @@ function Feedback({ lang }) {
 
           <Divider />
 
-          {/* 6. Best Feature */}
+          {/* ── 6. Best Feature ── */}
           <div className="form-group">
             <label className="form-label">{L.bestFeatureLabel}</label>
             <select
-              className="form-select" value={bestFeature}
-              onChange={e => setBestFeature(e.target.value)}
+              className="form-select"
+              name="bestFeature"  
               disabled={loading}
-              style={{ ...inputStyle, color: bestFeature ? 'var(--text-primary)' : 'var(--text-muted)' }}
+              defaultValue=""
+              style={inputStyle}
             >
               <option value="">{L.bestFeatureDefault}</option>
               <option value="Health Tips">{L.feat1}</option>
@@ -1202,7 +1215,7 @@ function Feedback({ lang }) {
 
           <Divider />
 
-          {/* 7. Issue */}
+          {/* ── 7. Issue (custom yes/no UI — uses React state) ── */}
           <div className="form-group">
             <label className="form-label">{L.issueLabel}</label>
             {renderYesNo(issue, setIssue)}
@@ -1210,41 +1223,50 @@ function Feedback({ lang }) {
 
           <Divider />
 
-          {/* 8. Suggestion */}
+          {/* ── 8. Suggestion ── */}
           <div className="form-group">
             <label className="form-label">{L.suggestionLabel}</label>
             <textarea
               className="form-input"
+              name="suggestion"   
               placeholder={L.suggestionPlaceholder}
-              value={suggestion}
-              onChange={e => setSuggestion(e.target.value)}
-              disabled={loading} rows={3}
+              disabled={loading}
+              rows={3}
               style={{ ...inputStyle, resize: 'vertical', lineHeight: 1.6, minHeight: 80, fontFamily: 'inherit' }}
             />
           </div>
 
-          {/* Error */}
+          {/* ── Error message ── */}
           {error && (
             <div style={{
-              background: 'var(--danger-bg, #fff0f0)',
-              border: '1.5px solid var(--danger, #e53e3e)',
-              borderRadius: 10, padding: '10px 14px',
-              color: 'var(--danger, #c53030)', fontSize: 14, fontWeight: 600,
+              background:   'var(--danger-bg, #fff0f0)',
+              border:       '1.5px solid var(--danger, #e53e3e)',
+              borderRadius: 10,
+              padding:      '10px 14px',
+              color:        'var(--danger, #c53030)',
+              fontSize:     14,
+              fontWeight:   600,
             }}>
               ⚠️ {error}
             </div>
           )}
 
-          {/* Submit */}
+          {/* ── Submit button (type="submit" triggers onSubmit) ── */}
           <button
+            type="submit"
             className="btn btn-primary"
-            onClick={handleSubmit} disabled={loading}
-            style={{ fontSize: 16, padding: '12px 24px', opacity: loading ? 0.7 : 1, cursor: loading ? 'not-allowed' : 'pointer' }}
+            disabled={loading}
+            style={{
+              fontSize: 16,
+              padding:  '12px 24px',
+              opacity:  loading ? 0.7 : 1,
+              cursor:   loading ? 'not-allowed' : 'pointer',
+            }}
           >
             {loading ? L.submitting : L.submit}
           </button>
 
-        </div>
+        </form>
       )}
     </section>
   );
