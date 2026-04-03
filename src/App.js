@@ -1039,8 +1039,8 @@ function Feedback({ lang }) {
     try {
       const response = await fetch(GOOGLE_SCRIPT_URL, {
         method:  'POST',
-        headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify(dataToSend),
+        redirect: 'follow', // follow redirects (Google may redirect to a different URL after form submission)
       });
 
       // If Google Apps Script returns a proper response, check it
